@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Creator of Student 2025
+Hello, my name is Sanya Kapoor and I am a junior.
