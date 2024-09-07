@@ -6,7 +6,6 @@ hide: true
 image: /images/mario_animation.png
 ---
 
-Hello, my name is Sanya Kapoor. 
 
 <!--- Concatenation of site URL to frontmatter image  --->
 {% assign sprite_file = site.baseurl | append: page.image %}
@@ -187,3 +186,34 @@ Hello, my name is Sanya Kapoor.
   });
 
 </script>
+
+<body style="background-color:powderblue;">
+
+<style>
+  .border_tomato {
+    border-width: 5px;
+    border-style:solid;
+    border-radius: 30px;
+  }
+  </style>
+<html lang="en">
+<div class="border_tomato">
+      <p class="solid"> </p>
+      <p style="color: MediumSeaGreen;">
+          Cookie Instructions: Chocolate chip cookies are a timeless favorite, known for their soft, chewy texture and sweet, buttery flavor. Studded with rich, melty chocolate chips, they offer a delightful contrast between the slightly crisp edges and the gooey center. They’re a classic dessert that never goes out of style.
+    </p>
+  <button style="color:Tomato; font-family:monospace; border-color:red; background-color:powderblue;">Button
+  </button> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  </div>
+
+
+<div>
+<a href="https://www.organic-center.org/recipes/ancho-chile-chocolate-cookies-sensient-natural-ingredients?gad_source=1&gclid=Cj0KCQjwiuC2BhDSARIsALOVfBLVTfmtUEc2ZzOrlBRdMd9DbbEF1Fy-5v-q4729sr0iEwZOBE0ZSFEaAhx9EALw_wcB">Chocolate Cookie </a>
+</div>
+<a href="https://pinchofyum.com/the-best-soft-chocolate-chip-cookies">Classic Chocolate Chip Recipe </a>
+<p> Above are two recipies and baking instructions for two types of cookies. For chocolate lovers, this recipe includes cocoa powder in the dough for an extra rich, chocolatey experience. The cookies come out soft and decadent, with an irresistible fudgy taste. Step-by-step guidance on mixing and baking ensures you get perfect cookies every time. For the classic chocolate chip, the recipe offers the perfect balance of crispy edges and a chewy center, made with simple ingredients like butter, sugar, eggs, and semi-sweet chocolate chips. The instructions provide tips on achieving that ideal texture and flavor, including chilling the dough for a more intense cookie. </p>
