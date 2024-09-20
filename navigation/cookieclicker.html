@@ -1,0 +1,31 @@
+
+<html>
+    <body>
+        <h1>Cookie Clicker</h1>
+        <img src="cookieclicker.png" alt="Cookie"
+    width="350"
+    height="350"
+    onclick = "increment()"/>
+        <p>Cookies Clicked: <span id = "counter">0</span></p>
+        <audio id="clickSound">
+            <source src="{{site.baseurl}}/images/CookieSound.mp3"  type="audio/mpeg">
+        </audio>
+    
+    <script>
+        var clicks = 0;
+        var sound = document.getElementById("clickSound");
+        function increment(){
+            clicks = clicks +1;
+            document.getElementById("counter").innerHTML = clicks;
+            sound.play();
+        }
+    </script>
+    <style>
+        body{
+                background-color: white;
+                color: rgb(81, 36, 36);
+            }
+        #counter{
+            color: rgb(92, 39, 39);
+        }
+    </style>

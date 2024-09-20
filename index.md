@@ -6,6 +6,11 @@ hide: true
 image: /images/mario_animation.png
 ---
 
+<div class="Games.md">
+  <a href="{{site.baseurl}}/navigation/Games/index">
+  <button>Games 🎮 </button>
+</a>
+
 
 <!--- Concatenation of site URL to frontmatter image  --->
 {% assign sprite_file = site.baseurl | append: page.image %}
