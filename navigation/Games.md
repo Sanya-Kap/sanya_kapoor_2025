@@ -29,7 +29,7 @@
     <div class="button-container">
         <a href="{{site.baseurl}}/navigation/cookieclicker.html/index">Cookie Clicker</a>
         <a href="{{site.baseurl}}/navigation/calculator.html/index">Calculator</a>
-        <a href="{{site.baseurl}}/navigation/othergame.html/index">Tic Tac Toe</a>
+        <a href="{{site.baseurl}}/navigation/othergame.html/index">Snake Game</a>
     </div>
 
 </body>

@@ -1,182 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Serif&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section>
-        <div id="title">
-            <h1>Tic Tac Toe</h1>
-            <div class="game--container">
-                <div data-cell-index="0" class="cell"></div>
-                <div data-cell-index="1" class="cell"></div>
-                <div data-cell-index="2" class="cell"></div>
-                <div data-cell-index="3" class="cell"></div>
-                <div data-cell-index="4" class="cell"></div> <!-- Added missing cell -->
-                <div data-cell-index="5" class="cell"></div>
-                <div data-cell-index="6" class="cell"></div>
-                <div data-cell-index="7" class="cell"></div>
-                <div data-cell-index="8" class="cell"></div>
-            </div>
-            <h3 class="game--status"></h3> 
-            <button class="game--restart">Restart Game</button>
-        </div>
-    </section>
-    <script src="./script.js"></script>
+  <canvas id="gameCanvas"></canvas>
+  <script src="game.js"></script>
 </body>
 </html>
 
-<style class="css">
-   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #8c52ff;
-}
-
-section {
-    text-align: center;
-    border-radius: 10px;
-    width: 400px;
-    margin: auto;
-    background-color: #fff;
-    margin-top: 75px;
-}
-
-.game--title {
-    padding-top: 20px;
-}
-
-.game--container {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    width: 150px;
-    margin: 120px;
-    margin-bottom: 10px;
-    margin-top:10px;
-}
-.cell {
-    font-family: "Poppins", sans-serif;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    line-height: 50px;
-    font-size: 20px;
-    border: 1px solid #000;
-    text-align: center;
-}
-button {
-    margin-bottom: 20px;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #8c52ff;
-    cursor: pointer;
-}
-
-button:hover {
-    transition: 0.25s;
-    background-color: #c1a2fe;
-}
-
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  canvas {
+    border: 1px solid white;
+    background-color: black;
+  }
 </style>
-<style class="javascript">
-const statusDisplay = document.querySelector('.game--status');
-let gameActive = true; // to check if the game is still active
-let currentPlayer = "X"; // starting player
-let gameState = ["", "", "", "", "", "", "", "", ""]; // empty game board
-const winningMessage = () => `Player ${currentPlayer} has won!`;
-const drawMessage = () => `Game ended in a draw!`;
-const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
-// Update the status text initially
-statusDisplay.innerHTML = currentPlayerTurn();
-// List of all possible winning combinations
-const winningConditions = [
-    [0, 1, 2],
-    [3, 4, 5],
-    [6, 7, 8],
-    [0, 3, 6],
-    [1, 4, 7],
-    [2, 5, 8],
-    [0, 4, 8],
-    [2, 4, 6]
+
+<script>
+    const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d');
+
+// Set canvas size
+canvas.width = 400;
+canvas.height = 400;
+
+// Snake properties
+let snake = [
+  { x: 200, y: 200 }
 ];
+const snakeSize = 20;
+let dx = snakeSize;
+let dy = 0;
 
-// Function to handle cell clicks
-function handleCellPlayed(clickedCell, clickedCellIndex) {
-    gameState[clickedCellIndex] = currentPlayer; // update the game state
-    clickedCell.innerHTML = currentPlayer; // display "X" or "O" in the clicked cell
+// Function to draw the snake
+function drawSnakePart(snakePart) {
+  ctx.fillStyle = 'lime';
+  ctx.fillRect(snakePart.x, snakePart.y, snakeSize, snakeSize);
 }
 
-// Function to switch player turns
-function handlePlayerChange() {
-    currentPlayer = currentPlayer === "X" ? "O" : "X";
-    statusDisplay.innerHTML = currentPlayerTurn();
+// Draw the full snake
+function drawSnake() {
+  snake.forEach(drawSnakePart);
 }
 
-// Function to check if the game is won, lost, or drawn
-function handleResultValidation() {
-    let roundWon = false;
-    for (let i = 0; i < winningConditions.length; i++) {
-        const winCondition = winningConditions[i];
-        let a = gameState[winCondition[0]];
-        let b = gameState[winCondition[1]];
-        let c = gameState[winCondition[2]];
-        if (a === '' || b === '' || c === '') {
-            continue;
-        }
-        if (a === b && b === c) {
-            roundWon = true;
-            break;
-        }
-    }
-
-    if (roundWon) {
-        statusDisplay.innerHTML = winningMessage();
-        gameActive = false;
-        return;
-    }
-
-    let roundDraw = !gameState.includes("");
-    if (roundDraw) {
-        statusDisplay.innerHTML = drawMessage();
-        gameActive = false;
-        return;
-    }
-
-    handlePlayerChange();
+// Move the snake by adding a new head based on direction and removing the tail
+function moveSnake() {
+  const head = { x: snake[0].x + dx, y: snake[0].y + dy };
+  snake.unshift(head);
+  snake.pop();
 }
 
-// Function to handle a cell click
-function handleCellClick(clickedCellEvent) {
-    const clickedCell = clickedCellEvent.target;
-    const clickedCellIndex = parseInt(clickedCell.getAttribute('data-cell-index'));
+// Change direction of the snake based on arrow keys
+function changeDirection(event) {
+  const keyPressed = event.keyCode;
+  const LEFT = 37;
+  const UP = 38;
+  const RIGHT = 39;
+  const DOWN = 40;
 
-    if (gameState[clickedCellIndex] !== "" || !gameActive) {
-        return; // if the cell is already clicked or the game is inactive, do nothing
-    }
-
-    handleCellPlayed(clickedCell, clickedCellIndex);
-    handleResultValidation();
+  if (keyPressed === LEFT && dx === 0) {
+    dx = -snakeSize;
+    dy = 0;
+  }
+  if (keyPressed === UP && dy === 0) {
+    dx = 0;
+    dy = -snakeSize;
+  }
+  if (keyPressed === RIGHT && dx === 0) {
+    dx = snakeSize;
+    dy = 0;
+  }
+  if (keyPressed === DOWN && dy === 0) {
+    dx = 0;
+    dy = snakeSize;
+  }
 }
 
-// Function to restart the game
-function handleRestartGame() {
-    gameActive = true;
-    currentPlayer = "X";
-    gameState = ["", "", "", "", "", "", "", "", ""];
-    statusDisplay.innerHTML = currentPlayerTurn();
-    document.querySelectorAll('.cell').forEach(cell => cell.innerHTML = "");
+// Main game loop
+function gameLoop() {
+  setTimeout(() => {
+    clearCanvas();
+    moveSnake();
+    drawSnake();
+    // Repeat
+    gameLoop();
+  }, 100);
 }
 
-// Add event listeners to all the cells
-document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
+// Clear canvas
+function clearCanvas() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
 
-// Add event listener to the restart button
-document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
+// Listen for keyboard input
+document.addEventListener('keydown', changeDirection);
+
+// Start the game
+gameLoop();
+</script>
