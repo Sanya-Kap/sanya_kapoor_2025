@@ -9,45 +9,41 @@ A collection of my work:
 *The website is a global platform where users can share and discover food reviews from around the world. Whether it's a hidden gem in Italy, street food in Thailand, or fine dining in France, the site allows travelers and food enthusiasts to post detailed reviews, including photos and ratings, about their culinary experiences.
 The platform aims to connect people through the universal love of food, helping users explore authentic cuisines, make informed dining choices, and celebrate the cultural diversity of food in different countries. It fosters a global community of food lovers who inspire each other to try new dishes and discover unique flavors worldwide.*
 
+---
+
+### 🛠️ Checklist Item: *Africa Posts*  
+![Insert Image Description](path/to/image1.jpg)  
+*People who want to connect over African food and get reviews from honest customers can view this page. It saves the posts of all previous users and can be refered to later.*
+
 <center/>
 <img src="{{site.baseurl}}/images/review_purpose.png" alt="Review"
     width="500"
     height="300" />
----
 
-
-### 🛠️ Checklist Item: *San Diego Posts*  
-![Insert Image Description](path/to/image1.jpg)  
-*Write about this project here. Add details, what inspired you, the process, challenges, and final outcome.*
+<img src="{{site.baseurl}}/images/africaapi.png" alt="Review"
+    width="333"
+    height="500" />    
 
 ---
 
-### 🛠️ Checklist Item: *Connect San Diego Posts to backend*  
-![Insert Image Description](path/to/image2.jpg)  
-*Write about this project here. Describe your approach and why you’re proud of it.*
+### 🛠️ Checklist Item: *Connect africas Posts to backend*  
+
+<center/>
+<img src="{{site.baseurl}}/images/post.png" alt="Review"
+    width="300"
+    height="150" />
+
+<img src="{{site.baseurl}}/images/database.png" alt="Review"
+    width="750"
+    height="300" />    
+
+*This demonstares how the posts on frontend have saved in the backend.*
 
 ---
 
-### 🛠️ Checklist Item: *Get postman to add data*  
-![Insert Image Description](path/to/image3.jpg)  
-*Feel free to go in-depth here. Talk about techniques, tools, and your creative journey.*
-
----
 
 ## 📝 Reflections
-Write your personal reflections, thoughts, or goals for the future. What have you learned, and what are you working toward?  
 
-*Example: "Creating these projects has been an incredible journey of growth. Each one pushed my skills to the next level, and I'm excited for what’s to come!"*
+Africa is a culturally diverse area that should be represented across the food review platform. Food connects communities and should be able to bring people together. I was motivated to make the posts save on the website so the posts could be refered back to and expanded upon, creating a platform for a community to form. 
 
 ---
-
-### Notes:
-- Replace the placeholder text (`path/to/imageX.jpg`) with actual file paths or image URLs.
-- Feel free to customize the sections further to match your style.
-"""
-    with open(file_name, 'w') as file:
-        file.write(content)
-    print(f"Markdown showcase page generated: {file_name}")
-
-# Call the function to generate the file
-generate_showcase_page("work_showcase.md")
