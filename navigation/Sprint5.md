@@ -89,6 +89,14 @@ delete:<br> <img width="646" alt="Image" src="https://github.com/user-attachment
 - Discuss the parameters (body of request) and return type (jasonify) of the function.<br>
 <img width="959" alt="Image" src="https://github.com/user-attachments/assets/685c25f4-faa4-4d78-82cc-5edfbe3377a1" />
 
+## Input/Output requests.  Demo ways to Input to your full stack feature.
+- Using frontend show  API request and  present API response. (live demo) <br>
+<img width="905" alt="Image" src="https://github.com/user-attachments/assets/b543a261-61fb-4416-8822-b89155e5880d" />
+- Using postman to show raw API request and RESTful response (error code(s) and JSON) <br>
+<img width="915" alt="Image" src="https://github.com/user-attachments/assets/64d22dc5-024f-46cb-b89b-6963bd830ed8" /> <br> <img width="490" alt="Image" src="https://github.com/user-attachments/assets/65008af0-bbcf-41f1-8bbb-7ba4691e8a05" /> <br>  <img width="473" alt="Image" src="https://github.com/user-attachments/assets/1b3cfb4d-197b-49ff-855f-3e479fd49c83" />
+- Using db_init, db_restore, db_backup to show tester data creation and data recovery. <br>
+<img width="745" alt="Image" src="https://github.com/user-attachments/assets/f0e0110c-dc79-4a01-84c4-ba29a1945a80" /> <br> <img width="731" alt="Image" src="https://github.com/user-attachments/assets/367146db-2717-4b1a-8797-4e7ad6d042b6" />
+
 ---
 
 ## 📝 Reflections
