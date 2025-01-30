@@ -11,22 +11,23 @@ The platform aims to connect people through the universal love of food, helping 
 
 ---
 
-### 🛠️ Checklist Item: *Africa Posts*  
-![Insert Image Description](path/to/image1.jpg)  
-*People who want to connect over African food and get reviews from honest customers can view this page. It saves the posts of all previous users and can be refered to later.*
+### 🛠️ Checklist Item: *Asia Posts*  
+*People who want to connect over Asian food and get reviews from honest customers can view this page. It saves the posts of all previous users and can be refered to later.*
 
 <center/>
-<img src="{{site.baseurl}}/images/review_purpose.png" alt="Review"
-    width="500"
-    height="300" />
+<img src="{{site.baseurl}}/images/channel.py.png" alt="Review"
+    width="1200"
+    height="500" />
 
-<img src="{{site.baseurl}}/images/africaapi.png" alt="Review"
-    width="333"
+<img src="{{site.baseurl}}/images/group.py.png" alt="Review"
+    width="1200"
     height="500" />    
+
+Initially, I only understood APIs as a way for systems to communicate, but I hadn't implemented one myself. Now, I've developed a feature where users can create a review on the frontend, which sends data to the backend with the API, and stores it in a database. One challenge was handling the failed to fetch errors, but I learned how to fix it by configuring the backend properly and making sure the API paths are correct.
 
 ---
 
-### 🛠️ Checklist Item: *Connect africas Posts to backend*  
+### 🛠️ Checklist Item: *Asia posting*  
 
 <center/>
 <img src="{{site.baseurl}}/images/post.png" alt="Review"
