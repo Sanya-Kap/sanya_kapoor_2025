@@ -69,6 +69,19 @@ This deletes the current Japan post from the database. If successful, it commits
 
 ---
 
+## List requests.  Use of list, dictionaries and database.  Code descriptions of area where you work with list (rows) and dictionaries (columns) of the database.
+<img width="725" alt="Image" src="https://github.com/user-attachments/assets/e07f65e3-0944-4962-9ce9-7f57ae225aba" />
+- Discuss formatting response data (JSON) from API into DOM <br>
+<img width="413" alt="Image" src="https://github.com/user-attachments/assets/6fc8ec4a-0d22-4eaf-a035-a38c94bf17a4" /> <br>
+frontend: DOM <br> <img width="475" alt="Image" src="https://github.com/user-attachments/assets/77f850db-1a9a-4d52-91ca-c3e0327f6052" />
+- Discuss queries from database where you extract a Python List (rows). Mention how these queries are provide by a 3rd. party library. <br> <img width="707" alt="Image" src="https://github.com/user-attachments/assets/8b02993e-0e42-4cda-93ae-0b8cc8e4e7f6" />
+- Discuss methods in "class" you created to work with columns (create, read, update, delete)
+create:<br> <img width="646" alt="Image" src="https://github.com/user-attachments/assets/0427ec76-3f3c-470a-a680-a68e69b26a29" />
+read: <br> <img width="716" alt="Image" src="https://github.com/user-attachments/assets/fc951ae8-cc7f-4ac1-9103-0860890dd49b" />
+update:<br>  <img width="302" alt="Image" src="https://github.com/user-attachments/assets/795741c0-8155-41ec-a3b4-998bbbd69897" />
+delete:<br> <img width="646" alt="Image" src="https://github.com/user-attachments/assets/0427ec76-3f3c-470a-a680-a68e69b26a29" />
+
+---
 
 ## 📝 Reflections
 
