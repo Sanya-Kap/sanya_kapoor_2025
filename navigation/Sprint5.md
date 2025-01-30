@@ -81,6 +81,14 @@ read: <br> <img width="716" alt="Image" src="https://github.com/user-attachments
 update:<br>  <img width="302" alt="Image" src="https://github.com/user-attachments/assets/795741c0-8155-41ec-a3b4-998bbbd69897" />
 delete:<br> <img width="646" alt="Image" src="https://github.com/user-attachments/assets/0427ec76-3f3c-470a-a680-a68e69b26a29" />
 
+## Algorithmic code request. Show the definition of code blocks to handle a request.
+- Discuss API class (code block) you used to perform  get, post, put, and delete methods. <br>
+<img width="827" alt="Image" src="https://github.com/user-attachments/assets/9e167ae3-7b46-43b3-9d4a-6bb9f404f1cb" /> <br> <img width="628" alt="Image" src="https://github.com/user-attachments/assets/21185c24-7da9-41b2-aecb-ad6e9b50a4a8" />
+- Discuss a method/procedure in class that contains sequencing, selection, and iteration. <br>
+<img width="959" alt="Image" src="https://github.com/user-attachments/assets/168658b6-21b5-44be-a8d5-3fb1ca26fecf" />
+- Discuss the parameters (body of request) and return type (jasonify) of the function.<br>
+<img width="959" alt="Image" src="https://github.com/user-attachments/assets/685c25f4-faa4-4d78-82cc-5edfbe3377a1" />
+
 ---
 
 ## 📝 Reflections
