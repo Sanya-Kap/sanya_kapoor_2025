@@ -81,6 +81,8 @@ read: <br> <img width="716" alt="Image" src="https://github.com/user-attachments
 update:<br>  <img width="302" alt="Image" src="https://github.com/user-attachments/assets/795741c0-8155-41ec-a3b4-998bbbd69897" />
 delete:<br> <img width="646" alt="Image" src="https://github.com/user-attachments/assets/0427ec76-3f3c-470a-a680-a68e69b26a29" />
 
+---
+
 ## Algorithmic code request. Show the definition of code blocks to handle a request.
 - Discuss API class (code block) you used to perform  get, post, put, and delete methods. <br>
 <img width="827" alt="Image" src="https://github.com/user-attachments/assets/9e167ae3-7b46-43b3-9d4a-6bb9f404f1cb" /> <br> <img width="628" alt="Image" src="https://github.com/user-attachments/assets/21185c24-7da9-41b2-aecb-ad6e9b50a4a8" />
@@ -89,6 +91,8 @@ delete:<br> <img width="646" alt="Image" src="https://github.com/user-attachment
 - Discuss the parameters (body of request) and return type (jasonify) of the function.<br>
 <img width="959" alt="Image" src="https://github.com/user-attachments/assets/685c25f4-faa4-4d78-82cc-5edfbe3377a1" />
 
+---
+
 ## Input/Output requests.  Demo ways to Input to your full stack feature.
 - Using frontend show  API request and  present API response. (live demo) <br>
 <img width="905" alt="Image" src="https://github.com/user-attachments/assets/b543a261-61fb-4416-8822-b89155e5880d" />
@@ -96,6 +100,16 @@ delete:<br> <img width="646" alt="Image" src="https://github.com/user-attachment
 <img width="915" alt="Image" src="https://github.com/user-attachments/assets/64d22dc5-024f-46cb-b89b-6963bd830ed8" /> <br> <img width="490" alt="Image" src="https://github.com/user-attachments/assets/65008af0-bbcf-41f1-8bbb-7ba4691e8a05" /> <br>  <img width="473" alt="Image" src="https://github.com/user-attachments/assets/1b3cfb4d-197b-49ff-855f-3e479fd49c83" />
 - Using db_init, db_restore, db_backup to show tester data creation and data recovery. <br>
 <img width="745" alt="Image" src="https://github.com/user-attachments/assets/f0e0110c-dc79-4a01-84c4-ba29a1945a80" /> <br> <img width="731" alt="Image" src="https://github.com/user-attachments/assets/367146db-2717-4b1a-8797-4e7ad6d042b6" />
+
+---
+
+## Call to Algorithm request.  Show the definition of code block to make a request.
+- Discuss the call/request to the method with Algorithm (fetch to endpoint).<br>
+<img width="535" alt="Image" src="https://github.com/user-attachments/assets/f67ecc7d-69b1-4853-be99-555c1522a751" /> <br> Defines groupName as 'Culinary Posts', which is the name of the group of channels being requested. responseData is an object that includes the group_name field, which will be sent in the request body.
+- Discuss the return/response from the method with Algorithm (fetch) and how you handle data.<br>
+The fetch() function sends an HTTP request to the backend. The request method is POST, meaning data is sent to the server. The body is converted into JSON format (JSON.stringify(responseData)). <br>
+fetching data: The function sends { group_name: 'Culinary Posts' } to the API. After Fetching (Output from API) The API returns an array of objects, each representing a channel:
+- Show how changing data or method triggers a different response, specifically normal conditions and error conditions.<br>
 
 ---
 

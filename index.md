@@ -21,6 +21,11 @@ image: /images/mario_animation.png
   <button>Sprint 5 Review </button>
 </a>
 
+<div class="BigIdea4.md">
+  <a href="{{site.baseurl}}/navigation/BidIdea4/index">
+  <button>Bid Idea 4 </button>
+</a>
+
 <!--- Concatenation of site URL to frontmatter image  --->
 {% assign sprite_file = site.baseurl | append: page.image %}
 <!--- Has is a list variable containing mario metadata for sprite --->
