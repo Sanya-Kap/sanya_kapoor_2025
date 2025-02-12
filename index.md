@@ -23,7 +23,7 @@ image: /images/mario_animation.png
 
 <div class="BigIdea4.md">
   <a href="{{site.baseurl}}/navigation/BigIdea4/index">
-  <button>Bid Idea 4 </button>
+  <button>Big Idea 4 </button>
 </a>
 
 <!--- Concatenation of site URL to frontmatter image  --->
