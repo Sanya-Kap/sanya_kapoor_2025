@@ -22,7 +22,7 @@ image: /images/mario_animation.png
 </a>
 
 <div class="BigIdea4.md">
-  <a href="{{site.baseurl}}/navigation/BidIdea4/index">
+  <a href="{{site.baseurl}}/navigation/BigIdea4/index">
   <button>Bid Idea 4 </button>
 </a>
 
