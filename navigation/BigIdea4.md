@@ -1,8 +1,4 @@
----
-layout: blogs 
-title: Development Blog
-search_exclude: true
-permalink: /test/
+
 ---
 4.1 Big Idea
 ---
