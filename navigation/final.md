@@ -97,3 +97,4 @@ This trimester has taught me a lot about Big Idea 4 through my poster and hands 
 
 ## 🚀 **Goals for furture** 🚀
 There is still a lot for me to improve on. I do not believe I earned a 10/10 because I am still solidifying my knowledge on deplyment. However, I do believe I earned a 9/10 because of how much I learned and perfomred in this trimester starting from almost nothing. I am proud of working through errors and developing my personal features as well as contributing to my teams organization. 
+In the future, I want to go into biomedical engineering so this class helped me bridge my introduction to engineering. 
