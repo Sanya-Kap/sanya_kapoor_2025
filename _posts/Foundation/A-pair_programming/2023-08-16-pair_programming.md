@@ -173,39 +173,39 @@ Additionally, a poster that I designed and collaborated on helped me advance som
   
   # Key Areas for Improvement
   
-  ### 1. Identifying and Correcting Errors (1.4) - 43%
+  # 1. Identifying and Correcting Errors (1.4) - 43%
   - Focus on debugging techniques, error detection, and logical errors in code.
   - **Aligns with:** Big Idea 1: Creative Development
   
-  ### 2. Conditionals (3.6) - 0%
+  # 2. Conditionals (3.6) - 0%
   - Study how if-statements and Boolean logic control program flow.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  ### 3. Nested Conditionals (3.7) - 50%
+  # 3. Nested Conditionals (3.7) - 50%
   - Practice handling multiple layers of conditional logic.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  ### 4. Iteration (3.8) - 60%
+  # 4. Iteration (3.8) - 60%
   - Improve understanding of loops (for/while) and their applications.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  ### 5. Developing Algorithms (3.9) - 75%
+  # 5. Developing Algorithms (3.9) - 75%
   - Work on structuring and optimizing algorithms.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  ### 6. Random Values (3.15) - 50%
+  # 6. Random Values (3.15) - 50%
   - Learn how randomness is implemented in programming.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  ### 7. Algorithmic Efficiency (3.17) - 0%
+  # 7. Algorithmic Efficiency (3.17) - 0%
   - Study efficiency (Big-O notation concepts), optimizing code, and computational complexity.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  ### 8. Legal and Ethical Concerns (5.5) - 67%
+  # 8. Legal and Ethical Concerns (5.5) - 67%
   - Review ethical computing, intellectual property, and privacy concerns.
   - **Aligns with:** Big Idea 5: Impact of Computing
   
-  ## Strengths
+  # Strengths
   - **Binary Numbers (2.1) - 100%**: Strong understanding of binary representations.
   - **Data Compression (2.2) - 100%**: Mastery in reducing data size and compression algorithms.
   - **Boolean Expressions (3.5) - 100%**: Confident with logical expressions and truth tables.
