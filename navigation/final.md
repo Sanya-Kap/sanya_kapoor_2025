@@ -1,6 +1,11 @@
-## 🎯 **My Top 5 Accomplishments**
-
 ---
+layout: base
+title: Final Review
+description: Final
+hide: true
+---
+
+## 🎯 **My Top 5 Accomplishments**
 
 ### 🥇 **Achievement 1:** Organization
 <img src="{{site.baseurl}}/images/prep.png" alt="Review"
