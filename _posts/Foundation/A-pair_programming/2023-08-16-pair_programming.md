@@ -74,7 +74,7 @@ This table is unique to san diego because it directs the posts to this table, in
 
 ---
 
-### 🎖️ **Achievement 5:**
+### 🎖️ **Achievement 5:** Big Idea 4 Poster
 📌 *Big Idea 4 Poster.*
 
 <img src="{{site.baseurl}}/images/pg1.png" alt="Review"
