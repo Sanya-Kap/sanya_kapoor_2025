@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pair Programming
-description: Pair Programming allows you to have secondary thinking as you work, not just a reflection after you are done, but real-time support.
+title: Final Review
+description: Final tasks.
 categories: [Collaboration]
 courses: { csse: {week: 0}, csp: {week: 0 }, csa: {week: 0}}
 type: collab
@@ -10,40 +10,101 @@ permalink: /pair/programming
 toc: true
 ---
 
-## "Real World" Projects
 
-**Don't do it alone.** You and your pair will work collaboratively together and will learn to Build, Deploy and Host a Website (many blogs).  Each blog has "Technicals" learned throughout each project.  This Website will be done as incremental blogs as you learn.  Each week an assignment will be given, and then the next week it will be under **Live Review**, and then for the weeks after each blog will be hosted on your Website.
+## 🎯 **My Top 5 Accomplishments**
 
-- Feature Considerations for Website (blog project)
-  - Final Project and Blog Requirements
-        - A home or fun zone for your Website should contain a unique idea(s)
-        - Educational zones that capture every key learning and course objectives
-        - About Me page, consider personal privacy issues as this will be public
-    - Project Technicals, over the Trimester
-      - Managing Project-based Learning (PBL) requirements for each Project (Issues, Scrum Board)
-        - CSSE, CSP, CSA. Use of "JavaScript, HTML, CSS". Frontend or Presentation development.
-        - CSP. Use of "Python Functions and Classes" in a backend.
-        - CSA. Use of "Java Classes and OOP" in a backend.
-        - Data Structures.  The exchange between frontend and backend: Backend could be Data Frames from Pandas, "SQL"  databases, "API" data, etc.
+### 🥇 **Achievement 1:** Organization
+<img src="{{site.baseurl}}/images/prep.png" alt="Review"
+    width="800"
+    height="1000" />  
 
-- Individual GitHub Pages Considerations
-  - **Each week we will be studying Big Ideas/Key Objectivies**.  There will be Units and blogs in the schedule that will describe key objectives. In AP Classes this will include Collage Board Test Prep and PBL Tech Talks. In Articulated Courses, this will be documenting meeting objectives of the course.
-    - **GitHub (GH) Pages should be used as a project/lab notebook.** In GH Pages, you can capture Project-based Learning (PBL).  Also, in Jupyter Notebooks you can capture JavaScript, Python, and Java key learnings each week using Jupyter Notebook code cells!  
-    - BTW, using GH Pages will let you **Code and Blog at the same time**.  Jupyter Notebooks using Python and Markdown will enable running code in code cells and notes in Markdown cells. The Teachers like running code!  Jupyter Notebooks, using Python kernel can do JavaScript, Python, Bash and other languages. Additionally, there is an independent Java kernel.
+<img src="{{site.baseurl}}/images/nm.png" alt="Review"
+    width="1000"
+    height="600" />  
 
-## Hacks
+<img src="{{site.baseurl}}/images/deplyment.png" alt="Review"
+    width="900"
+    height="700" />  
+---
 
-> Establish PBL and Comp Sci attitude; often called an **Agile Mindset or Growth Mindset**.  Here are some elements you could add to start your blog.
+### 🥈 **Achievement 2:** Static data
+This Python script defines a Flask RESTful API for retrieving restaurant information in South Africa.
 
-- Watch a video [How I Would Learn To Code](https://www.youtube.com/watch?v=k9WqpQp8VSU).  Record some thoughts.
-- Attitude.  An Agile/Growth mindset is not knowing the answer, making lots of mistakes and performing iteration.  **A successful grade is dependent on making mistakes, research, asking questions, and continual iteration**.  Record some mistakes you made and then show the resulting corrections.
-- Tools and Equipment. Highlight some items you learned from the tools setup.   **Why do you think bringing a personal laptop or Chromebook to class daily is so important?**  Comment on how the Internet, AP Classroom, ChatGPT, and Nighthawk Coders website will be considered as a textbook.  
-- Requirements. Everything will be distributed electronically.  All code you develop will be delivered to the Cloud. **No paper!**
-- Grading guidelines. Write your interpretation of this paragraph in your blog.  There will be key technical objectives that will require producing **tangibles** aka tangible artifacts. Essentially, it is impossible to be late with work if you work consistently attend class, work in class and turn in progressive tangibles each week.  Thus, failure to have work will result in a point deduction.  Additionally, **late work must be defended during office hours** and will receive a 10% deduction or more.
-- Understanding point scale.  Write your interpretation of the below in your blog.
-  - A High "A" is very tough to achieve, something beyond the given requirements.  Something that exhibits an unforced desire to learn and Code/Code/Code beyond.  A series of these types of grades is required to earn a Teacher recommendation for College.
-    - Low "A" is consistency in producing tangibles toward Team Project and Individual GH Page according to Issues and Scrum Board plans.   Plans must be consistent with key objectives and technicals.
-    - "B" is having flaws in consistency or tangible shortcomings, but mostly on track.  A flaw would be mostly working code, and attempts, but an incomplete assignment.
-    - "C" is a lack of consistent effort, lacking tangibles. Lack of producing running Code.
-    - Below "C" is composed of Slash/Slash/Slash offenses. Lack of attendance, disruptive behaviors, using phone inappropriately, doing work from other classes during CompSci class time, paper visible in class, and turning in "tangibles" that you can't represent in live review.
-    - Zero is a result of plagiarism.  The Teachers will likely miss the first few offenses of plagiarism, thus any offense will result in an inquiry on previous work. Remember this is an effort-based class.
+<img src="{{site.baseurl}}/images/half.png" alt="Review"
+    width="900"
+    height="700" />  
+
+<img src="{{site.baseurl}}/images/halff.png" alt="Review"
+    width="900"
+    height="700" />  
+---
+
+I learned that Flask-RESTful is API structured using a Blueprint, allowing modular organization and enabling multiple endpoints under the /api prefix. The southafricaAPI class defines a static method, get_food(name), which retrieves restaurant data from a dictionary-based data structure. Each restaurant is mapped to a RESTful resource, inheriting from Resource, and implements a get() method to return JSON-encoded responses. The API follows a declarative routing pattern, using api.add_resource() to associate endpoints like /food/born with their corresponding data. Additionally, a bulk endpoint consolidates all restaurant information into a single JSON response, improving data retrieval efficiency. This modular design adheres to abstraction and encapsulation principles, promoting scalability and maintainability.
+
+### 🥉 **Achievement 3:** San Diego Frontend
+
+<img src="{{site.baseurl}}/images/sand.png" alt="Review"
+    width="800"
+    height="500" />  
+
+<img src="{{site.baseurl}}/images/tablee.png" alt="Review"
+    width="1000"
+    height="700" />  
+
+This table is unique to san diego because it directs the posts to this table, instead of floating around beneath the posting feature. 
+---
+
+### 🎖️ **Achievement 4:** Diet feature
+📌 <img src="{{site.baseurl}}/images/after.png" alt="Review"
+    width="1000"
+    height="400" />  
+             
+<img src="{{site.baseurl}}/images/output.png" alt="Review"
+    width="500"
+    height="1000" />
+
+<img src="{{site.baseurl}}/images/code.png" alt="Review"
+    width="1000"
+    height="700" />  
+
+<img src="{{site.baseurl}}/images/req.png" alt="Review"
+    width="1000"
+    height="400" />  
+
+
+---
+
+### 🎖️ **Achievement 5:**
+📌 *Big Idea 4 Poster.*
+
+<img src="{{site.baseurl}}/images/pg1.png" alt="Review"
+    width="350"
+    height="500" />  
+
+<img src="{{site.baseurl}}/images/pg2.png" alt="Review"
+    width="350"
+    height="550" />  
+
+<img src="{{site.baseurl}}/images/1.png" alt="Review"
+    width="200"
+    height="550" />  
+
+<img src="{{site.baseurl}}/images/5.png" alt="Review"
+    width="200"
+    height="380" />  
+
+<img src="{{site.baseurl}}/images/6.png" alt="Review"
+    width="200"
+    height="290" />  
+
+I designed a detailed and visually appealing poster for Big Idea 4. The poster highlighted key definitions and real-world applications that aligns with what we built in class. This helped my understanding as putting the diagram together helped me piece together the different parts of the internet protocal. I learned how data is transfered through smaller packets and how computers communicate along the network. Having a visual summary helped my classmates engage with the material beyond classroom work and lectures.Some students learn better visually, and my poster provided an alternative method to absorb the information. 
+
+
+## ✨ **Project Feature blog write up** ✨
+This trimester has taught me a lot about Big Idea 4 through my poster and hands on experience with deployment. I did not have a strong grasp on the main ideas because of the different teaching style I had in trimester one. So jumping into creating features and using APIs acceslerated my knowledge and ability to code by a lot. I did stuggle at first, but I learned so much being exposed to deployment, APIs, and frontend vs backend. 
+
+---
+
+## 🚀 **Goals for furture** 🚀
+There is still a lot for me to improve on. I do not believe I earned a 10/10 because I am still solidifying my knowledge on deplyment. However, I do believe I earned a 9/10 because of how much I learned and perfomred in this trimester starting from almost nothing. I am proud of working through errors and developing my personal features as well as contributing to my teams organization. 
+In the future, I want to go into biomedical engineering so this class helped me bridge my introduction to engineering. 
