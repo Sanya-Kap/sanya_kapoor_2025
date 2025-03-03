@@ -51,8 +51,10 @@ I learned that Flask-RESTful is API structured using a Blueprint, allowing modul
     width="1000"
     height="700" />  
 
-This table is unique to san diego because it directs the posts to this table, instead of floating around beneath the posting feature. 
 ---
+
+This table is unique to san diego because it directs the posts to this table, instead of floating around beneath the posting feature. 
+
 
 ### 🎖️ **Achievement 4:** Diet feature
 📌 <img src="{{site.baseurl}}/images/after.png" alt="Review"
