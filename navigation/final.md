@@ -1,5 +1,4 @@
-def format_achievements(filename):
-    md_content = """
+
 # 🌟 **Achievements This Trimester** 🌟
 
 ## 🎯 **My Top 5 Accomplishments**

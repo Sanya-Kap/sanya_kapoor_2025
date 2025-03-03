@@ -31,6 +31,16 @@ image: /images/mario_animation.png
   <button>final </button>
 </a>
 
+<div class="2020MC.md">
+  <a href="{{site.baseurl}}/navigation/2020MC/index">
+  <button>2020 MC </button>
+</a>
+
+<div class="CPTNTM.md">
+  <a href="{{site.baseurl}}/navigation/CPTNTM/index">
+  <button>CPT & NTM </button>
+</a>
+
 <!--- Concatenation of site URL to frontmatter image  --->
 {% assign sprite_file = site.baseurl | append: page.image %}
 <!--- Has is a list variable containing mario metadata for sprite --->
