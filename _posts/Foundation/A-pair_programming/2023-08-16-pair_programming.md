@@ -203,24 +203,15 @@ Additionally, a poster that I designed and collaborated on helped me advance som
   
  # First MC vs. Last MC
 
-from prettytable import PrettyTable
+ - First MC = 35 points
+- Second MC = 52 points
+17 point increase!
 
-# Create a table
-table = PrettyTable()
+<img src="{{site.baseurl}}/images/mc1.png" alt="Review"
+      width="1000"
+      height="300" />  
 
-# Define column names
-table.field_names = ["Topic", "Test 1", "Test 2"]
-
-# Add rows with sample scores (modify as needed)
-table.add_row([1, 40, 50])
-table.add_row([2, 38, 50])
-table.add_row([3, 42, 50])
-table.add_row([4, 45, 50])
-table.add_row([5, 43, 50])
-
-# Print the table
-print(table)
-
+Compared to my original score, I increased significatnly in all categories. However in both MCs, Big Idea 3 was where I struggled the most.
 
   # Key Areas for Improvement
   
