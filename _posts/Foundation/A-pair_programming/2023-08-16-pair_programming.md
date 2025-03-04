@@ -11,9 +11,10 @@ toc: true
 ---
 
 
+
 <div style="text-align: center; margin-bottom: 20px;">
   <a href="#section1" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Accomplishments</a>
-  <a href="#section2" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Sci-Fi</a>
+  <a href="#section2" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Write up</a>
   <a href="#section3" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Action </a>
   <a href="#section4" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Drama </a>
   <a href="#section5" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Historical Fiction </a>
@@ -55,7 +56,7 @@ I learned that Flask-RESTful is API structured using a Blueprint, allowing modul
 
 <img src="{{site.baseurl}}/images/sand.png" alt="Review"
     width="800"
-    height="500" />  
+    height="600" />  
 
 <img src="{{site.baseurl}}/images/tablee.png" alt="Review"
     width="1000"
@@ -110,7 +111,7 @@ This table is unique to san diego because it directs the posts to this table, in
 
 I designed a detailed and visually appealing poster for Big Idea 4. The poster highlighted key definitions and real-world applications that aligns with what we built in class. This helped my understanding as putting the diagram together helped me piece together the different parts of the internet protocal. I learned how data is transfered through smaller packets and how computers communicate along the network. Having a visual summary helped my classmates engage with the material beyond classroom work and lectures.Some students learn better visually, and my poster provided an alternative method to absorb the information. 
 
-
+## Write up <a id="section2"></a>
 ## ✨ **Project Feature blog write up** ✨
 This trimester has taught me a lot about Big Idea 4 through my poster and hands on experience with deployment. I did not have a strong grasp on the main ideas because of the different teaching style I had in trimester one. So jumping into creating features and using APIs acceslerated my knowledge and ability to code by a lot. I did stuggle at first, but I learned so much being exposed to deployment, APIs, and frontend vs backend. 
 
@@ -121,7 +122,7 @@ There is still a lot for me to improve on. I do not believe I earned a 10/10 bec
 In the future, I want to go into biomedical engineering so this class helped me bridge my introduction to engineering. 
 
 
-*CPT Requirements and Night at the Museum feedback*
+*Night at the Museum feedback*
 
 <img src="{{site.baseurl}}/images/nm.png" alt="Review"
     width="1000"
@@ -178,8 +179,30 @@ Additionally, a poster that I designed and collaborated on helped me advance som
   <img src="{{site.baseurl}}/images/bigidea.png" alt="Review"
       width="1000"
       height="300" />  
+
+
   
-  
+ # First MC vs. Last MC
+
+from prettytable import PrettyTable
+
+# Create a table
+table = PrettyTable()
+
+# Define column names
+table.field_names = ["Topic", "Test 1", "Test 2"]
+
+# Add rows with sample scores (modify as needed)
+table.add_row([1, 40, 50])
+table.add_row([2, 38, 50])
+table.add_row([3, 42, 50])
+table.add_row([4, 45, 50])
+table.add_row([5, 43, 50])
+
+# Print the table
+print(table)
+
+
   # Key Areas for Improvement
   
   # 1. Identifying and Correcting Errors (1.4) - 43%
