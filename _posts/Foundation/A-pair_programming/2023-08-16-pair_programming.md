@@ -11,6 +11,16 @@ toc: true
 ---
 
 
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="#section1" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Accomplishments</a>
+  <a href="#section2" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Sci-Fi</a>
+  <a href="#section3" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Action </a>
+  <a href="#section4" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Drama </a>
+  <a href="#section5" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Historical Fiction </a>
+  <a href="#section6" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Comedy </a>
+</div>
+
+## Accomplishments <a id="section1"></a>
 ## 🎯 **My Top 5 Accomplishments**
 
 ### 🥇 **Achievement 1:** Organization
@@ -51,9 +61,8 @@ I learned that Flask-RESTful is API structured using a Blueprint, allowing modul
     width="1000"
     height="700" />  
 
----
-
 This table is unique to san diego because it directs the posts to this table, instead of floating around beneath the posting feature. 
+
 
 
 ### 🎖️ **Achievement 4:** Diet feature
