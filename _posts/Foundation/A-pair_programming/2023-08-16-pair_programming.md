@@ -36,6 +36,10 @@ toc: true
 <img src="{{site.baseurl}}/images/deplyment.png" alt="Review"
     width="900"
     height="700" />  
+
+<img src="{{site.baseurl}}/images/deplyment.png" alt="Review"
+    width="900"
+    height="700" />  
 ---
 
 ### 🥈 **Achievement 2:** Static data
@@ -169,6 +173,11 @@ Additionally, a poster that I designed and collaborated on helped me advance som
 <img src="{{site.baseurl}}/images/6.png" alt="Review"
     width="200"
     height="290" />  
+
+<img src="{{site.baseurl}}/images/4for4.png" alt="Review"
+    width="200"
+    height="300" />  
+
 
   # AP CSP 2020 MC Review
   
