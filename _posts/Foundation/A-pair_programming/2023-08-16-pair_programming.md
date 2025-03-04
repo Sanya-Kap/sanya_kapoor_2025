@@ -37,7 +37,7 @@ toc: true
     width="900"
     height="700" />  
 
-<img src="{{site.baseurl}}/images/deplyment.png" alt="Review"
+<img src="{{site.baseurl}}/images/collab.png" alt="Review"
     width="900"
     height="700" />  
 ---
