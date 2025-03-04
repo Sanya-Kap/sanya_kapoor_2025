@@ -111,10 +111,6 @@ This table is unique to san diego because it directs the posts to this table, in
     width="350"
     height="550" />  
 
-from tabulate import tabulate
-
-# Data for the table
-data = [
     ["1.A", "Investigate the situation, context, or task."],
     ["1.B", "Determine and design an appropriate method or approach to achieve the purpose."],
     ["1.C", "Explain how collaboration affects the development of a solution."],
@@ -122,16 +118,6 @@ data = [
     ["5.A", "Explain how computing systems work."],
     ["5.B", "Explain how knowledge can be generated from data."],
     ["6.A", "Collaborate in the development of solutions."]
-]
-
-# Table headers
-headers = ["Requirement", "Description"]
-
-# Generate the table
-table = tabulate(data, headers, tablefmt="grid")
-
-# Print the table
-print(table)
 
 
 I designed a detailed and visually appealing poster for Big Idea 4. The poster highlighted key definitions and real-world applications that aligns with what we built in class. This helped my understanding as putting the diagram together helped me piece together the different parts of the internet protocal. I learned how data is transfered through smaller packets and how computers communicate along the network. Having a visual summary helped my classmates engage with the material beyond classroom work and lectures.Some students learn better visually, and my poster provided an alternative method to absorb the information. 
