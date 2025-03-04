@@ -133,16 +133,12 @@ There is still a lot for me to improve on. I do not believe I earned a 10/10 bec
 In the future, I want to go into biomedical engineering so this class helped me bridge my introduction to engineering. 
 
 
-*Night at the Museum feedback*
+## **Night at the Museum feedback**
 <a id="section3"></a>
 
 <img src="{{site.baseurl}}/images/nm.png" alt="Review"
     width="1000"
     height="600" />  
-
-<img src="{{site.baseurl}}/images/before.png" alt="Review"
-    width="1000"
-    height="300" />  
 
 
 But the make it more user friendly and appealing, I styled it. This also aligns with the feedback we got from night at the museum to make it more personalized. 
@@ -170,24 +166,23 @@ Additionally, a poster that I designed and collaborated on helped me advance som
     width="350"
     height="550" />  
 
-<img src="{{site.baseurl}}/images/1.png" alt="Review"
-    width="200"
-    height="550" />  
 
-<img src="{{site.baseurl}}/images/5.png" alt="Review"
-    width="200"
-    height="380" />  
+Requirement	Description
+1.A	Investigate the situation, context, or task.
+1.B	Determine and design an appropriate method or approach to achieve the purpose.
+1.C	Explain how collaboration affects the development of a solution.
+1.D	Evaluate solution options.
+5.A	Explain how computing systems work.
+5.B	Explain how knowledge can be generated from data.
+6.A	Collaborate in the development of solutions.
 
-<img src="{{site.baseurl}}/images/6.png" alt="Review"
-    width="200"
-    height="290" />  
 
 <img src="{{site.baseurl}}/images/4for4.png" alt="Review"
     width="200"
     height="300" />  
 
 
-  # AP CSP 2020 MC Review
+  # **AP CSP 2020 MC Review**
 <a id="section4"></a>
 
   <img src="{{site.baseurl}}/images/score.png" alt="Review"
@@ -202,9 +197,9 @@ Additionally, a poster that I designed and collaborated on helped me advance som
   
  # First MC vs. Last MC
 
- - First MC = 35 points
+- First MC = 35 points
 - Second MC = 52 points
-17 point increase!
+- 17 point increase!
 
 <img src="{{site.baseurl}}/images/mc1.png" alt="Review"
       width="1000"
@@ -212,7 +207,7 @@ Additionally, a poster that I designed and collaborated on helped me advance som
 
 Compared to my original score, I increased significatnly in all categories. However in both MCs, Big Idea 3 was where I struggled the most.
 
-  # Key Areas for Improvement
+  # **Key Areas for Improvement**
   
   # 1. Identifying and Correcting Errors (1.4) - 43%
   - Focus on debugging techniques, error detection, and logical errors in code.
@@ -246,7 +241,7 @@ Compared to my original score, I increased significatnly in all categories. Howe
   - Review ethical computing, intellectual property, and privacy concerns.
   - **Aligns with:** Big Idea 5: Impact of Computing
   
-  # Strengths
+  # **Strengths**
   - **Binary Numbers (2.1) - 100%**: Strong understanding of binary representations.
   - **Data Compression (2.2) - 100%**: Mastery in reducing data size and compression algorithms.
   - **Boolean Expressions (3.5) - 100%**: Confident with logical expressions and truth tables.
@@ -256,12 +251,12 @@ Compared to my original score, I increased significatnly in all categories. Howe
   - **Fault Tolerance (4.2) - 100%**: Strong knowledge of system reliability and redundancy.
   - **Safe Computing (5.6) - 100%**: Good awareness of cybersecurity and best practices.
   
-  ## Focus Areas (Most Important Units)
+  ## **Focus Areas (Most Important Units)**
   - **Unit 3: Algorithms and Programming** (Major Weaknesses: Conditionals, Iteration, Algorithmic Efficiency)
   - **Unit 1: Creative Development** (Needs improvement in debugging and error correction)
   - **Unit 5: Impact of Computing** (Legal and Ethical Concerns need review)
   
-  ## Study Strategy
+  ## **Study Strategy**
   - **Review Weak Areas**: Focus on practice problems for debugging, conditionals, iteration, and algorithm efficiency.
   - **AP Classroom & College Board Resources**: Use official practice questions and videos.
   - **Code Practice**: Implement and test concepts in Python to reinforce understanding.
@@ -270,5 +265,9 @@ Compared to my original score, I increased significatnly in all categories. Howe
   Overall, I think I improved significantly from the MC we took at the begnning of the tri. I developed my skills and understanding on Unit 4 a lot. However, this is still a long way to go especially in Unit 3, which is where most of my mistakes were. 
 
   <a id="section5"></a>
- # Self Assessment
+  ## **Self Assessment**
+
+
+
+  I do not think I earned a 10/10. However, I was extremely focused on enhancing my skills and understanding of APIs and collaboration on working towards the CPT requirements accelerated my knowledge which is why I think I earned at least a 9/10. I went beyond to help others with my Sprint 4 poster, organizing our events for N@TM, created a detailed overview of my strengths and weaknesses from the MC and my personal features, created next steps, created an honest self assessment based on the CPT requirements, and took interest in others projects during night at the museum and creating a review of what my group needs to work on. Therefore, I think I earned a 9.5/10 overall.
 
