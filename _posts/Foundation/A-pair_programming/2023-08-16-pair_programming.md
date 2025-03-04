@@ -214,6 +214,18 @@ Requirement	Description
 
 Compared to my original score, I increased significatnly in all categories. However in both MCs, Big Idea 3 was where I struggled the most.
 
+<img src="{{site.baseurl}}/images/q1.png" alt="Review"
+      width="1000"
+      height="300" />  
+
+This code segment initially sets cost to 6 (the cheapest possible ticket price), then increases cost by 2 for people whose age is greater than 12. Regardless of the person’s age, cost is increased by 2 for people going on a guided tour.
+
+<img src="{{site.baseurl}}/images/q2.png" alt="Review"
+      width="1000"
+      height="300" />  
+      
+Since x is true, the body of the IF statement is executed. Since x OR y evaluates to true, true is displayed.
+
   # **Key Areas for Improvement**
   
   # 📌 1. Identifying and Correcting Errors (1.4) - 43%
