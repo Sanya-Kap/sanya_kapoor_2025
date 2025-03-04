@@ -38,8 +38,8 @@ toc: true
     height="700" />  
 
 <img src="{{site.baseurl}}/images/collab.png" alt="Review"
-    width="900"
-    height="700" />  
+    width="400"
+    height="200" />  
 ---
 
 ### 🥈 **Achievement 2:** Static data
@@ -71,7 +71,13 @@ This table is unique to san diego because it directs the posts to this table, in
 
 
 ### 🎖️ **Achievement 4:** Diet feature
-📌 <img src="{{site.baseurl}}/images/after.png" alt="Review"
+
+
+📌 <img src="{{site.baseurl}}/images/before.png" alt="Review"
+    width="1000"
+    height="400" /> 
+
+<img src="{{site.baseurl}}/images/after.png" alt="Review"
     width="1000"
     height="400" />  
              
