@@ -129,8 +129,8 @@ This trimester has taught me a lot about Big Idea 4 through my poster and hands 
 ---
 
 ## 🚀 **Goals for furture** 🚀
-There is still a lot for me to improve on. I do not believe I earned a 10/10 because I am still solidifying my knowledge on deplyment. However, I do believe I earned a 9/10 because of how much I learned and perfomred in this trimester starting from almost nothing. I am proud of working through errors and developing my personal features as well as contributing to my teams organization. 
-In the future, I want to go into biomedical engineering so this class helped me bridge my introduction to engineering. 
+There is still a lot for me to improve on. For Next Trimester, I have clear goals of improving my fundamental understanding of code segments and fixing errors. I want to go deeper into my learning on API development. In the future, I want to go into biomedical engineering so this class helped me bridge my introduction to engineering.
+ 
 
 
 ## **Night at the Museum feedback**
@@ -271,7 +271,26 @@ Compared to my original score, I increased significatnly in all categories. Howe
   <a id="section5"></a>
   ## **Self Assessment**
 
+```python
+from prettytable import PrettyTable
+
+# Create a table
+table = PrettyTable()
+
+# Define column names
+table.field_names = ["Category", "Value"]
+
+# Add 6 rows with sample data (modify as needed)
+table.add_row(["Test 1", 85])
+table.add_row(["Test 2", 90])
+table.add_row(["Test 3", 78])
+table.add_row(["Test 4", 88])
+table.add_row(["Test 5", 92])
+table.add_row(["Test 6", 80])
+
+# Print the table
+print(table)
 
 
-  I do not think I earned a 10/10. However, I was extremely focused on enhancing my skills and understanding of APIs and collaboration on working towards the CPT requirements accelerated my knowledge which is why I think I earned at least a 9/10. I went beyond to help others with my Sprint 4 poster, organizing our events for N@TM, created a detailed overview of my strengths and weaknesses from the MC and my personal features, created next steps, created an honest self assessment based on the CPT requirements, and took interest in others projects during night at the museum and creating a review of what my group needs to work on. Therefore, I think I earned a 9.5/10 overall.
 
+  I do not think I earned a 10/10 because I am still solidifying my knowledge on deplyment. However, I was extremely focused on enhancing my skills and understanding of APIs and collaboration on working towards the CPT requirements accelerated my knowledge which is why I think I earned at least a 9/10. I went beyond to help others with my Sprint 4 poster, organizing our events for N@TM, created a detailed overview of my strengths and weaknesses from the MC and my personal features, created next steps, created an honest self assessment based on the CPT requirements, and took interest in others projects during night at the museum and creating a review of what my group needs to work on. Therefore, I think I earned a 9.5/10 overall.
