@@ -141,7 +141,7 @@ There is still a lot for me to improve on. For Next Trimester, I have clear goal
     height="600" />  
 
 
-But the make it more user friendly and appealing, I styled it. This also aligns with the feedback we got from night at the museum to make it more personalized. 
+Based on reviews, to make it more user friendly and appealing, I created and styled a new feature. This also aligns with the feedback we got from night at the museum to make it more personalized. 
 
 <img src="{{site.baseurl}}/images/after.png" alt="Review"
     width="1000"
@@ -151,42 +151,45 @@ But the make it more user friendly and appealing, I styled it. This also aligns 
     width="500"
     height="1000" />
 
-<img src="{{site.baseurl}}/images/req.png" alt="Review"
-    width="1000"
+<img src="{{site.baseurl}}/images/IMG_0590.png" alt="Review"
+    width="300"
     height="400" />  
 
+While at Night at The Museum, one CSA project I found especially intreresting was a stocks website, which actively updated stock values. I left a review and some suggestions for improvement.  
 
-Additionally, a poster that I designed and collaborated on helped me advance some of my understandersings on Big Idea 1,5 and 6. 
-
-<img src="{{site.baseurl}}/images/pg1.png" alt="Review"
-    width="350"
-    height="500" />  
-
-<img src="{{site.baseurl}}/images/pg2.png" alt="Review"
-    width="350"
-    height="550" />  
+Additionally, the poster that I designed and collaborated on helped me advance some of my understandersings on Big Idea 1,5 and 6. 
 
 <img src="{{site.baseurl}}/images/coll.png" alt="Review"
-    width="600"
-    height="400" />
+    width="1000"
+    height="300" />
 
 
 Requirement	Description
+<br>
 1.A	Investigate the situation, context, or task.
+<br>
 1.B	Determine and design an appropriate method or approach to achieve the purpose.
+<br>
 1.C	Explain how collaboration affects the development of a solution.
+<br>
 1.D	Evaluate solution options.
+<br>
 5.A	Explain how computing systems work.
+<br>
 5.B	Explain how knowledge can be generated from data.
+<br>
 6.A	Collaborate in the development of solutions.
+<br>
 
 
 <img src="{{site.baseurl}}/images/4for4.png" alt="Review"
     width="200"
     height="300" />  
 
+<br>
+<br>
 
-  # **AP CSP 2020 MC Review**
+**AP CSP 2020 MC Review**
 <a id="section4"></a>
 
   <img src="{{site.baseurl}}/images/score.png" alt="Review"
@@ -213,35 +216,35 @@ Compared to my original score, I increased significatnly in all categories. Howe
 
   # **Key Areas for Improvement**
   
-  # 1. Identifying and Correcting Errors (1.4) - 43%
+  # 📌 1. Identifying and Correcting Errors (1.4) - 43%
   - Focus on debugging techniques, error detection, and logical errors in code.
   - **Aligns with:** Big Idea 1: Creative Development
   
-  # 2. Conditionals (3.6) - 0%
+  # 📌 2. Conditionals (3.6) - 0%
   - Study how if-statements and Boolean logic control program flow.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  # 3. Nested Conditionals (3.7) - 50%
+  # 📌 3. Nested Conditionals (3.7) - 50%
   - Practice handling multiple layers of conditional logic.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  # 4. Iteration (3.8) - 60%
+  # 📌 4. Iteration (3.8) - 60%
   - Improve understanding of loops (for/while) and their applications.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  # 5. Developing Algorithms (3.9) - 75%
+  # 📌 5. Developing Algorithms (3.9) - 75%
   - Work on structuring and optimizing algorithms.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  # 6. Random Values (3.15) - 50%
+  # 📌 6. Random Values (3.15) - 50%
   - Learn how randomness is implemented in programming.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  # 7. Algorithmic Efficiency (3.17) - 0%
+  # 📌 7. Algorithmic Efficiency (3.17) - 0%
   - Study efficiency (Big-O notation concepts), optimizing code, and computational complexity.
   - **Aligns with:** Big Idea 3: Algorithms and Programming
   
-  # 8. Legal and Ethical Concerns (5.5) - 67%
+  # 📌 8. Legal and Ethical Concerns (5.5) - 67%
   - Review ethical computing, intellectual property, and privacy concerns.
   - **Aligns with:** Big Idea 5: Impact of Computing
   
@@ -255,12 +258,12 @@ Compared to my original score, I increased significatnly in all categories. Howe
   - **Fault Tolerance (4.2) - 100%**: Strong knowledge of system reliability and redundancy.
   - **Safe Computing (5.6) - 100%**: Good awareness of cybersecurity and best practices.
   
-  ## **Focus Areas (Most Important Units)**
+  # **Focus Areas (Most Important Units)**
   - **Unit 3: Algorithms and Programming** (Major Weaknesses: Conditionals, Iteration, Algorithmic Efficiency)
   - **Unit 1: Creative Development** (Needs improvement in debugging and error correction)
   - **Unit 5: Impact of Computing** (Legal and Ethical Concerns need review)
   
-  ## **Study Strategy**
+  # **Realistic Study Strategy**
   - **Review Weak Areas**: Focus on practice problems for debugging, conditionals, iteration, and algorithm efficiency.
   - **AP Classroom & College Board Resources**: Use official practice questions and videos.
   - **Code Practice**: Implement and test concepts in Python to reinforce understanding.
@@ -271,26 +274,14 @@ Compared to my original score, I increased significatnly in all categories. Howe
   <a id="section5"></a>
   ## **Self Assessment**
 
-```python
-from prettytable import PrettyTable
-
-# Create a table
-table = PrettyTable()
-
-# Define column names
-table.field_names = ["Category", "Value"]
-
-# Add 6 rows with sample data (modify as needed)
-table.add_row(["Test 1", 85])
-table.add_row(["Test 2", 90])
-table.add_row(["Test 3", 78])
-table.add_row(["Test 4", 88])
-table.add_row(["Test 5", 92])
-table.add_row(["Test 6", 80])
-
-# Print the table
-print(table)
-
-
+Induvidual Features: 5/5
+<br>
+CPT Requirements and N@TM: 2/2
+<br>
+Write up/Self Reflection: 1/1
+<br>
+MCQ: 1/1
+<br>
+Reflection/Self Assessment: 0.4/1
 
   I do not think I earned a 10/10 because I am still solidifying my knowledge on deplyment. However, I was extremely focused on enhancing my skills and understanding of APIs and collaboration on working towards the CPT requirements accelerated my knowledge which is why I think I earned at least a 9/10. I went beyond to help others with my Sprint 4 poster, organizing our events for N@TM, created a detailed overview of my strengths and weaknesses from the MC and my personal features, created next steps, created an honest self assessment based on the CPT requirements, and took interest in others projects during night at the museum and creating a review of what my group needs to work on. Therefore, I think I earned a 9.5/10 overall.
