@@ -15,7 +15,7 @@ toc: true
 <div style="text-align: center; margin-bottom: 20px;">
   <a href="#section1" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Accomplishments</a>
   <a href="#section2" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Write up</a>
-  <a href="#section3" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Action </a>
+  <a href="#section3" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Night At The Museum </a>
   <a href="#section4" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Drama </a>
   <a href="#section5" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Historical Fiction </a>
   <a href="#section6" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Comedy </a>
@@ -115,7 +115,8 @@ This table is unique to san diego because it directs the posts to this table, in
 
 I designed a detailed and visually appealing poster for Big Idea 4. The poster highlighted key definitions and real-world applications that aligns with what we built in class. This helped my understanding as putting the diagram together helped me piece together the different parts of the internet protocal. I learned how data is transfered through smaller packets and how computers communicate along the network. Having a visual summary helped my classmates engage with the material beyond classroom work and lectures.Some students learn better visually, and my poster provided an alternative method to absorb the information. 
 
-## Write up <a id="section2"></a>
+## Write up 
+<a id="section2"></a>
 ## ✨ **Project Feature blog write up** ✨
 This trimester has taught me a lot about Big Idea 4 through my poster and hands on experience with deployment. I did not have a strong grasp on the main ideas because of the different teaching style I had in trimester one. So jumping into creating features and using APIs acceslerated my knowledge and ability to code by a lot. I did stuggle at first, but I learned so much being exposed to deployment, APIs, and frontend vs backend. 
 
@@ -127,6 +128,7 @@ In the future, I want to go into biomedical engineering so this class helped me 
 
 
 *Night at the Museum feedback*
+<a id="section3"></a>
 
 <img src="{{site.baseurl}}/images/nm.png" alt="Review"
     width="1000"
@@ -180,7 +182,8 @@ Additionally, a poster that I designed and collaborated on helped me advance som
 
 
   # AP CSP 2020 MC Review
-  
+<a id="section4"></a>
+
   <img src="{{site.baseurl}}/images/score.png" alt="Review"
       width="1100"
       height="200" />  
@@ -268,3 +271,7 @@ print(table)
   - **Exam Strategies**: Work on timing and eliminating incorrect answer choices efficiently.
   
   Overall, I think I improved significantly from the MC we took at the begnning of the tri. I developed my skills and understanding on Unit 4 a lot. However, this is still a long way to go especially in Unit 3, which is where most of my mistakes were. 
+
+  <a id="section5"></a>
+
+ # Self Assessment
