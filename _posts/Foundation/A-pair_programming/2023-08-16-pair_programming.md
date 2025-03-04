@@ -223,7 +223,7 @@ This code segment initially sets cost to 6 (the cheapest possible ticket
 <img src="{{site.baseurl}}/images/q2.png" alt="Review"
       width="1000"
       height="300" />  
-      
+
 Since x is true, the body of the IF statement is executed. Since x OR y evaluates to true, true is displayed.
 
   # **Key Areas for Improvement**
@@ -295,5 +295,7 @@ Write up/Self Reflection: 1/1
 MCQ: 1/1
 <br>
 Reflection/Self Assessment: 0.4/1
+<BR>
+OVERALL: 9.4/10
 
   I do not think I earned a 10/10 because I am still solidifying my knowledge on deplyment. However, I was extremely focused on enhancing my skills and understanding of APIs and collaboration on working towards the CPT requirements accelerated my knowledge which is why I think I earned at least a 9/10. I went beyond to help others with my Sprint 4 poster, organizing our events for N@TM, created a detailed overview of my strengths and weaknesses from the MC and my personal features, created next steps, created an honest self assessment based on the CPT requirements, and took interest in others projects during night at the museum and creating a review of what my group needs to work on. Therefore, I think I earned a 9.5/10 overall.
