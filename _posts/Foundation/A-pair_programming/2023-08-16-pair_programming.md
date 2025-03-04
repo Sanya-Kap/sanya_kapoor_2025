@@ -16,9 +16,8 @@ toc: true
   <a href="#section1" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Accomplishments</a>
   <a href="#section2" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Write up</a>
   <a href="#section3" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Night At The Museum </a>
-  <a href="#section4" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Drama </a>
-  <a href="#section5" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Historical Fiction </a>
-  <a href="#section6" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Comedy </a>
+  <a href="#section4" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> MCQ </a>
+  <a href="#section5" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Self Assessment </a>
 </div>
 
 ## Accomplishments <a id="section1"></a>
@@ -271,5 +270,5 @@ Compared to my original score, I increased significatnly in all categories. Howe
   Overall, I think I improved significantly from the MC we took at the begnning of the tri. I developed my skills and understanding on Unit 4 a lot. However, this is still a long way to go especially in Unit 3, which is where most of my mistakes were. 
 
   <a id="section5"></a>
-
  # Self Assessment
+
