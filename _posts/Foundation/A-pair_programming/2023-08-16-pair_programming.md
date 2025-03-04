@@ -52,6 +52,11 @@ This Python script defines a Flask RESTful API for retrieving restaurant informa
 <img src="{{site.baseurl}}/images/halff.png" alt="Review"
     width="900"
     height="700" />  
+
+Writing code that works with static data, like storing and retrieving information from a dictionary or table, aligns with Big Idea 2: Data in AP CSP. Specifically, it covers:
+
+Data Abstraction: Using structured formats (e.g., dictionaries, lists, tables) to organize and manage data efficiently.
+Storage & Representation: Storing data in a way that allows for easy access and retrieval, such as using dictionaries for key-value pairs or Markdown tables for structured display.
 ---
 
 I learned that Flask-RESTful is API structured using a Blueprint, allowing modular organization and enabling multiple endpoints under the /api prefix. The southafricaAPI class defines a static method, get_food(name), which retrieves restaurant data from a dictionary-based data structure. Each restaurant is mapped to a RESTful resource, inheriting from Resource, and implements a get() method to return JSON-encoded responses. The API follows a declarative routing pattern, using api.add_resource() to associate endpoints like /food/born with their corresponding data. Additionally, a bulk endpoint consolidates all restaurant information into a single JSON response, improving data retrieval efficiency. This modular design adheres to abstraction and encapsulation principles, promoting scalability and maintainability.
@@ -67,7 +72,6 @@ I learned that Flask-RESTful is API structured using a Blueprint, allowing modul
     height="700" />  
 
 This table is unique to san diego because it directs the posts to this table, instead of floating around beneath the posting feature. 
-
 
 
 ### 🎖️ **Achievement 4:** Diet feature
@@ -107,17 +111,28 @@ This table is unique to san diego because it directs the posts to this table, in
     width="350"
     height="550" />  
 
-<img src="{{site.baseurl}}/images/1.png" alt="Review"
-    width="200"
-    height="550" />  
+from tabulate import tabulate
 
-<img src="{{site.baseurl}}/images/5.png" alt="Review"
-    width="200"
-    height="380" />  
+# Data for the table
+data = [
+    ["1.A", "Investigate the situation, context, or task."],
+    ["1.B", "Determine and design an appropriate method or approach to achieve the purpose."],
+    ["1.C", "Explain how collaboration affects the development of a solution."],
+    ["1.D", "Evaluate solution options."],
+    ["5.A", "Explain how computing systems work."],
+    ["5.B", "Explain how knowledge can be generated from data."],
+    ["6.A", "Collaborate in the development of solutions."]
+]
 
-<img src="{{site.baseurl}}/images/6.png" alt="Review"
-    width="200"
-    height="290" />  
+# Table headers
+headers = ["Requirement", "Description"]
+
+# Generate the table
+table = tabulate(data, headers, tablefmt="grid")
+
+# Print the table
+print(table)
+
 
 I designed a detailed and visually appealing poster for Big Idea 4. The poster highlighted key definitions and real-world applications that aligns with what we built in class. This helped my understanding as putting the diagram together helped me piece together the different parts of the internet protocal. I learned how data is transfered through smaller packets and how computers communicate along the network. Having a visual summary helped my classmates engage with the material beyond classroom work and lectures.Some students learn better visually, and my poster provided an alternative method to absorb the information. 
 
