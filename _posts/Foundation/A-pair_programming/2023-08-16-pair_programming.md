@@ -18,7 +18,149 @@ toc: true
   <a href="#section3" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Night At The Museum </a>
   <a href="#section4" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> MCQ </a>
   <a href="#section5" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> Self Assessment </a>
+  <a href="#section6" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;"> CPT requirements </a>
 </div>
+
+**AP CSP 2020 MC Review**
+<a id="section4"></a>
+
+  <img src="{{site.baseurl}}/images/score.png" alt="Review"
+      width="1100"
+      height="200" />  
+  
+  <img src="{{site.baseurl}}/images/bigidea.png" alt="Review"
+      width="1000"
+      height="300" />  
+
+
+  
+ # First MC vs. Last MC
+
+- First MC = 35 points
+- Second MC = 52 points
+- 17 point increase!
+
+<img src="{{site.baseurl}}/images/mc1.png" alt="Review"
+      width="1000"
+      height="300" />  
+
+Compared to my original score, I increased significatnly in all categories. However in both MCs, Big Idea 3 was where I struggled the most.
+
+<img src="{{site.baseurl}}/images/q1.png" alt="Review"
+      width="1000"
+      height="300" />  
+
+This code segment initially sets cost to 6 (the cheapest possible ticket price), then increases cost by 2 for people whose age is greater than 12. Regardless of the person’s age, cost is increased by 2 for people going on a guided tour.
+
+<img src="{{site.baseurl}}/images/q2.png" alt="Review"
+      width="1000"
+      height="300" />  
+
+Since x is true, the body of the IF statement is executed. Since x OR y evaluates to true, true is displayed.
+
+  # **Key Areas for Improvement**
+  
+  # 📌 1. Identifying and Correcting Errors (1.4) - 43%
+  - Focus on debugging techniques, error detection, and logical errors in code.
+  - **Aligns with:** Big Idea 1: Creative Development
+  
+  # 📌 2. Conditionals (3.6) - 0%
+  - Study how if-statements and Boolean logic control program flow.
+  - **Aligns with:** Big Idea 3: Algorithms and Programming
+  
+  # 📌 3. Nested Conditionals (3.7) - 50%
+  - Practice handling multiple layers of conditional logic.
+  - **Aligns with:** Big Idea 3: Algorithms and Programming
+  
+  # 📌 4. Iteration (3.8) - 60%
+  - Improve understanding of loops (for/while) and their applications.
+  - **Aligns with:** Big Idea 3: Algorithms and Programming
+  
+  # 📌 5. Developing Algorithms (3.9) - 75%
+  - Work on structuring and optimizing algorithms.
+  - **Aligns with:** Big Idea 3: Algorithms and Programming
+  
+  # 📌 6. Random Values (3.15) - 50%
+  - Learn how randomness is implemented in programming.
+  - **Aligns with:** Big Idea 3: Algorithms and Programming
+  
+  # 📌 7. Algorithmic Efficiency (3.17) - 0%
+  - Study efficiency (Big-O notation concepts), optimizing code, and computational complexity.
+  - **Aligns with:** Big Idea 3: Algorithms and Programming
+  
+  # 📌 8. Legal and Ethical Concerns (5.5) - 67%
+  - Review ethical computing, intellectual property, and privacy concerns.
+  - **Aligns with:** Big Idea 5: Impact of Computing
+  
+  # **Strengths**
+  - **Binary Numbers (2.1) - 100%**: Strong understanding of binary representations.
+  - **Data Compression (2.2) - 100%**: Mastery in reducing data size and compression algorithms.
+  - **Boolean Expressions (3.5) - 100%**: Confident with logical expressions and truth tables.
+  - **Strings (3.4) - 100%**: Comfortable with string manipulation and operations.
+  - **Developing Procedures (3.13) - 100%**: Strong ability to write and structure procedures.
+  - **The Internet (4.1) - 100%**: Clear understanding of internet protocols and how data is transmitted.
+  - **Fault Tolerance (4.2) - 100%**: Strong knowledge of system reliability and redundancy.
+  - **Safe Computing (5.6) - 100%**: Good awareness of cybersecurity and best practices.
+  
+  # **Focus Areas (Most Important Units)**
+  - **Unit 3: Algorithms and Programming** (Major Weaknesses: Conditionals, Iteration, Algorithmic Efficiency)
+  - **Unit 1: Creative Development** (Needs improvement in debugging and error correction)
+  - **Unit 5: Impact of Computing** (Legal and Ethical Concerns need review)
+  
+  # **Realistic Study Strategy**
+  - **Review Weak Areas**: Focus on practice problems for debugging, conditionals, iteration, and algorithm efficiency.
+  - **AP Classroom & College Board Resources**: Use official practice questions and videos.
+  - **Code Practice**: Implement and test concepts in Python to reinforce understanding.
+  - **Exam Strategies**: Work on timing and eliminating incorrect answer choices efficiently.
+  
+  Overall, I think I improved significantly from the MC we took at the begnning of the tri. I developed my skills and understanding on Unit 4 a lot. However, this is still a long way to go especially in Unit 3, which is where most of my mistakes were. 
+
+
+  ## **PPR**
+<a id="section6"></a>
+
+## - A list creation
+## - A list being processed
+## - A function with parameters and sequencing, selection, and iteration
+## - Call to function
+
+## List creation
+<img src="{{site.baseurl}}/images/list.png" alt="Review"
+    width="800"
+    height="1000" />  
+
+Southafrica was what defined the lists and the according parameters. The data for southafricas restaurants are stored in this list.
+
+## List processing
+<img src="{{site.baseurl}}/images/processed.png" alt="Review"
+    width="800"
+    height="1000" />  
+
+This code uses listing and a loop to iterate and display the data through the print command. 
+
+## Function with parameters
+<img src="{{site.baseurl}}/images/function.png" alt="Review"
+    width="800"
+    height="1000" />  
+
+the Fetch command is defining the procedure and returns an API endpoint. Its parameters include groupName which filters our the data. Sequencing is shown in the fetch of API data and the dynamic display. Selection is in the error feature. Iteration is in the for loop updating the frontend UI.
+
+## Call to function
+<img src="{{site.baseurl}}/images/functioncall.png" alt="Review"
+    width="800"
+    height="1000" />  
+
+The fetch command ensures that all the data is up to date and is displayed properly. 
+
+
+## **CPT Requirements**
+Big Idea 1.1
+- Induvidual: I kept the team organized by created several issues to outline our plans and takeaways. For night at the museum, I created a detailed out;ine of everyones induvidual role and after I crated an issue for our key focuses of strengths and weaknesses and what action we need to take with this feedback. 
+Team: As a team we stayed highly coordinated with our figma board and kanban board. We knew our key focuses as well on the agile meathod and CRUD. 
+
+Big Idea
+
+
 
 ## Accomplishments <a id="section1"></a>
 ## 🎯 **My Top 5 Accomplishments**
@@ -189,99 +331,6 @@ Requirement	Description
 <br>
 <br>
 
-**AP CSP 2020 MC Review**
-<a id="section4"></a>
-
-  <img src="{{site.baseurl}}/images/score.png" alt="Review"
-      width="1100"
-      height="200" />  
-  
-  <img src="{{site.baseurl}}/images/bigidea.png" alt="Review"
-      width="1000"
-      height="300" />  
-
-
-  
- # First MC vs. Last MC
-
-- First MC = 35 points
-- Second MC = 52 points
-- 17 point increase!
-
-<img src="{{site.baseurl}}/images/mc1.png" alt="Review"
-      width="1000"
-      height="300" />  
-
-Compared to my original score, I increased significatnly in all categories. However in both MCs, Big Idea 3 was where I struggled the most.
-
-<img src="{{site.baseurl}}/images/q1.png" alt="Review"
-      width="1000"
-      height="300" />  
-
-This code segment initially sets cost to 6 (the cheapest possible ticket price), then increases cost by 2 for people whose age is greater than 12. Regardless of the person’s age, cost is increased by 2 for people going on a guided tour.
-
-<img src="{{site.baseurl}}/images/q2.png" alt="Review"
-      width="1000"
-      height="300" />  
-
-Since x is true, the body of the IF statement is executed. Since x OR y evaluates to true, true is displayed.
-
-  # **Key Areas for Improvement**
-  
-  # 📌 1. Identifying and Correcting Errors (1.4) - 43%
-  - Focus on debugging techniques, error detection, and logical errors in code.
-  - **Aligns with:** Big Idea 1: Creative Development
-  
-  # 📌 2. Conditionals (3.6) - 0%
-  - Study how if-statements and Boolean logic control program flow.
-  - **Aligns with:** Big Idea 3: Algorithms and Programming
-  
-  # 📌 3. Nested Conditionals (3.7) - 50%
-  - Practice handling multiple layers of conditional logic.
-  - **Aligns with:** Big Idea 3: Algorithms and Programming
-  
-  # 📌 4. Iteration (3.8) - 60%
-  - Improve understanding of loops (for/while) and their applications.
-  - **Aligns with:** Big Idea 3: Algorithms and Programming
-  
-  # 📌 5. Developing Algorithms (3.9) - 75%
-  - Work on structuring and optimizing algorithms.
-  - **Aligns with:** Big Idea 3: Algorithms and Programming
-  
-  # 📌 6. Random Values (3.15) - 50%
-  - Learn how randomness is implemented in programming.
-  - **Aligns with:** Big Idea 3: Algorithms and Programming
-  
-  # 📌 7. Algorithmic Efficiency (3.17) - 0%
-  - Study efficiency (Big-O notation concepts), optimizing code, and computational complexity.
-  - **Aligns with:** Big Idea 3: Algorithms and Programming
-  
-  # 📌 8. Legal and Ethical Concerns (5.5) - 67%
-  - Review ethical computing, intellectual property, and privacy concerns.
-  - **Aligns with:** Big Idea 5: Impact of Computing
-  
-  # **Strengths**
-  - **Binary Numbers (2.1) - 100%**: Strong understanding of binary representations.
-  - **Data Compression (2.2) - 100%**: Mastery in reducing data size and compression algorithms.
-  - **Boolean Expressions (3.5) - 100%**: Confident with logical expressions and truth tables.
-  - **Strings (3.4) - 100%**: Comfortable with string manipulation and operations.
-  - **Developing Procedures (3.13) - 100%**: Strong ability to write and structure procedures.
-  - **The Internet (4.1) - 100%**: Clear understanding of internet protocols and how data is transmitted.
-  - **Fault Tolerance (4.2) - 100%**: Strong knowledge of system reliability and redundancy.
-  - **Safe Computing (5.6) - 100%**: Good awareness of cybersecurity and best practices.
-  
-  # **Focus Areas (Most Important Units)**
-  - **Unit 3: Algorithms and Programming** (Major Weaknesses: Conditionals, Iteration, Algorithmic Efficiency)
-  - **Unit 1: Creative Development** (Needs improvement in debugging and error correction)
-  - **Unit 5: Impact of Computing** (Legal and Ethical Concerns need review)
-  
-  # **Realistic Study Strategy**
-  - **Review Weak Areas**: Focus on practice problems for debugging, conditionals, iteration, and algorithm efficiency.
-  - **AP Classroom & College Board Resources**: Use official practice questions and videos.
-  - **Code Practice**: Implement and test concepts in Python to reinforce understanding.
-  - **Exam Strategies**: Work on timing and eliminating incorrect answer choices efficiently.
-  
-  Overall, I think I improved significantly from the MC we took at the begnning of the tri. I developed my skills and understanding on Unit 4 a lot. However, this is still a long way to go especially in Unit 3, which is where most of my mistakes were. 
 
   <a id="section5"></a>
   ## **Self Assessment**
@@ -299,3 +348,4 @@ Reflection/Self Assessment: 0.4/1
 OVERALL: 9.4/10
 
   I do not think I earned a 10/10 because I am still solidifying my knowledge on deplyment. However, I was extremely focused on enhancing my skills and understanding of APIs and collaboration on working towards the CPT requirements accelerated my knowledge which is why I think I earned at least a 9/10. I went beyond to help others with my Sprint 4 poster, organizing our events for N@TM, created a detailed overview of my strengths and weaknesses from the MC and my personal features, created next steps, created an honest self assessment based on the CPT requirements, and took interest in others projects during night at the museum and creating a review of what my group needs to work on. Therefore, I think I earned a 9.5/10 overall.
+
