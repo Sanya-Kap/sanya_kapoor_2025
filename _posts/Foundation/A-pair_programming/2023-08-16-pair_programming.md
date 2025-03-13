@@ -127,14 +127,14 @@ Since x is true, the body of the IF statement is executed. Since x O
 ## List creation
 <img src="{{site.baseurl}}/images/list.png" alt="Review"
     width="800"
-    height="1000" />  
+    height="200" />  
 
 Southafrica was what defined the lists and the according parameters. The data for southafricas restaurants are stored in this list.
 
 ## List processing
 <img src="{{site.baseurl}}/images/processed.png" alt="Review"
     width="800"
-    height="1000" />  
+    height="400" />  
 
 This code uses listing and a loop to iterate and display the data through the print command. 
 
@@ -148,17 +148,23 @@ the Fetch command is defining the procedure and returns an API endpoint. Its par
 ## Call to function
 <img src="{{site.baseurl}}/images/functioncall.png" alt="Review"
     width="800"
-    height="1000" />  
+    height="800" />  
 
 The fetch command ensures that all the data is up to date and is displayed properly. 
 
 
 ## **CPT Requirements**
-Big Idea 1.1
+Big Idea 1
 - Induvidual: I kept the team organized by created several issues to outline our plans and takeaways. For night at the museum, I created a detailed out;ine of everyones induvidual role and after I crated an issue for our key focuses of strengths and weaknesses and what action we need to take with this feedback. 
 Team: As a team we stayed highly coordinated with our figma board and kanban board. We knew our key focuses as well on the agile meathod and CRUD. 
 
-Big Idea
+Big Idea 4
+ - Induvidual: I spent a lot of time making a poster that defines and abstracts the big idea. I also shared this poster with others as well outside of my team and was able to teach what I put together. This also helped my understanding of the concepts immensly. 
+ - Group: I worked with another member in my group on this pster which helped on my collaboration. As a team we were also able to deploy our website securely. 
+
+Big Idea 3
+- Induvidual: I attacked algorithms and programming because they are used in coding to simplify complex tasks. I used APIs to create a personalized diet feature for users. This provides predefined functions that developers can use without knowing their internal workings. This API also steamlines code as it was reusable and saved resources. 
+- Group: We collectively streamlined data to make it appear simple and user friendly on the frontend. 
 
 
 
