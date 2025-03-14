@@ -116,6 +116,15 @@ Since x is true, the body of the IF statement is executed. Since x O
   Overall, I think I improved significantly from the MC we took at the begnning of the tri. I developed my skills and understanding on Unit 4 a lot. However, this is still a long way to go especially in Unit 3, which is where most of my mistakes were. 
 
 
+<script src="https://utteranc.es/client.js"
+        repo= "Sanya-Kap/sanya_kapoor_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 **PPR**
 <a id="section6"></a>
 
@@ -166,6 +175,14 @@ Big Idea 3
 - Induvidual: I attacked algorithms and programming because they are used in coding to simplify complex tasks. I used APIs to create a personalized diet feature for users. This provides predefined functions that developers can use without knowing their internal workings. This API also steamlines code as it was reusable and saved resources. 
 - Group: We collectively streamlined data to make it appear simple and user friendly on the frontend. 
 
+<script src="https://utteranc.es/client.js"
+        repo= "Sanya-Kap/sanya_kapoor_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
 
 ## Accomplishments <a id="section1"></a>
