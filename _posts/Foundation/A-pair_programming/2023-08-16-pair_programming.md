@@ -355,3 +355,14 @@ OVERALL: 9.4/10
 
   I do not think I earned a 10/10 because I am still solidifying my knowledge on deplyment. However, I was extremely focused on enhancing my skills and understanding of APIs and collaboration on working towards the CPT requirements accelerated my knowledge which is why I think I earned at least a 9/10. I went beyond to help others with my Sprint 4 poster, organizing our events for N@TM, created a detailed overview of my strengths and weaknesses from the MC and my personal features, created next steps, created an honest self assessment based on the CPT requirements, and took interest in others projects during night at the museum and creating a review of what my group needs to work on. Therefore, I think I earned a 9.5/10 overall.
 
+
+
+
+<script src="https://utteranc.es/client.js"
+        repo= "Sanya-Kap/sanya_kapoor_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
