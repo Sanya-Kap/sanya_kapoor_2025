@@ -41,6 +41,23 @@ image: /images/mario_animation.png
   <button>CPT & NTM </button>
 </a>
 
+
+**Trimester 3**
+Benificial and Harmful effects HW
+AI is a new technology that has crated a lot of controversy. It has lead to a great increase in eficiency and automation so people can have more specialized jobs. It has also lead to quick diagnoses and information in the vast arrary of medical implications. However there is a lot of job displacement. Though AI is taking over some jobs that are repetitive and don't require personalization, many new jobs are being introduced. Since job displacement is invesitable, I think AI is more benifiical than harmful. However, environmentally there is a major impact on global warming. therefore, I think that while AI can result in more benifits, it should be limited in use. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--- Concatenation of site URL to frontmatter image  --->
 {% assign sprite_file = site.baseurl | append: page.image %}
 <!--- Has is a list variable containing mario metadata for sprite --->
