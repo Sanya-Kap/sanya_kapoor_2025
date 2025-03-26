@@ -57,7 +57,9 @@ image: /images/mario_animation.png
                 <li>Data Crowdsourcing & Open Source Development</li>
                 <li>Distributed Computing
                 Data Crowdsourcing: Data crowdsourcing is a method of collecting data from a large group of people, typically through online platforms.
+                <br>
   - Data creates Quick data collection, Diverse input, Cost-effective, and Scalability.
+  <br>
 - Open Source Development: Open source development is a way of building software where the code is shared openly with the public. 
   - This means anyone can view, use, improve, and share the code.
   - It can be hard to manage lots of different contributors.
@@ -68,6 +70,8 @@ image: /images/mario_animation.png
   - An example is wikipedia which is an online information platform for knowledge. 
 - Distributed Computing:
   - Distributed computing involves a system of multiple computers working together over a network to solve a problem or complete a task. These systems share resources, such as processing power, storage, and data, to achieve a common goal.
+  <br> 
+  <br>
 - Popcorn Hack: How does distributed computing contribute to innovations through crowdsourcing?
   - Distributed computing refers to a system where computing tasks are spread across multiple networked devices, allowing large-scale processing of complex problems. When combined with crowdsourcing, it enables significant innovations by leveraging the collective power of volunteers’ devices to solve scientific, medical, and technological challenges.</li>
             </ul>
@@ -76,17 +80,26 @@ image: /images/mario_animation.png
     <div class="section">
         <div class="section-title">Beneficial and Harmful Effects</div>
         <div class="section-content">
-            <p>AI increases efficiency and automation, leading to job specialization, quick diagnoses, and medical advancements. However, it also causes job displacement and environmental concerns.</p>
+            <p>AI is a new technology that has crated a lot of controversy. It has lead to a great increase in eficiency and automation so people can have more specialized jobs. It has also lead to quick diagnoses and information in the vast arrary of medical implications. However there is a lot of job displacement. Though AI is taking over some jobs that are repetitive and don’t require personalization, many new jobs are being introduced. Since job displacement is invesitable, I think AI is more benifiical than harmful. However, environmentally there is a major impact on global warming. therefore, I think that while AI can result in more benifits, it should be limited in use..</p>
         </div>
     </div>
     <div class="section">
         <div class="section-title">Computing Bias</div>
         <div class="section-content">
-            <p>Computing bias occurs when algorithms produce results that unfairly favor or disadvantage certain groups. It can arise from flawed or biased data.</p>
+            <p>Notes:
+Computing bias occurs when computer programs, algorithms, or systems produce results that unfairly favor or disadvantage certain groups.
+Creates flawed data and outputs
+Happens because of Unrepresentative or Incomplete Data, Flawed or Biased Data, and Data Collection & Labeling (Human annotators may introduce biases due to different cultural or personal biases during the data labeling process).
+Explicit data: Data that the user or programmer directly provides.
+Implicit data: Data that is inferred from the user’s actions or behavior, not directly provided.
+Implicit Data can lead to reinforcing bias by suggesting content based on past behavior, potentially limiting diversity and preventing users from discovering new genres.
+Explicit Data is generally more accurate but can still be biased if user input is limited or influenced by the design of the platform.
+Algorithmic bias is bias generated from a repeatable but faulty computer system that produces inaccurate results.
+ex: AI analyzing resumes to filter them out. Finds that some key words are used more my a specific ethniticity which makes them biased in the data.
+Data bias occurs when the data itself includes bias caused by incomplete or erroneous informations.</p>
             <ul>
-                <li>Explicit vs. Implicit Data</li>
-                <li>Algorithmic Bias</li>
-                <li>Data Bias</li>
+                <li>HW: Explain the difference between implicit and explicit data. Provide an example of each:
+Explicit data is where a user or system directly provides data. Implicit data is when data is not directly provided but is inferred from other information. An example of explicit data is a user inputting their name, gender, and age when signing up for Netflix. Implicit data is a suggestion Netflix gives a user based on their previous watches.</li>
             </ul>
         </div>
     </div>
