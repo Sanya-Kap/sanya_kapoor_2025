@@ -8,6 +8,32 @@ image: /images/mario_animation.png
 
 
 **Trimester 3**
+
+<Br>
+
+Crowdsourcing:
+- Crowdsourcing is a method of collecting help, ideas, or input from a large and varied group of people, typically through online platforms. 
+- The broader the crowdsourcing effort, the more you go beyond your immediate circle, the better chance you have to reduce Computer Bias.
+- Popcorn Hack #1: What are the different types of crowdsourcing, and how do they contribute to innovation? Provide a brief description of each type:
+1. Crowdfunding - Raising money by collecting small contributions from a large group of people.
+2. Crowd Creation -  Gathering creative input from a crowd, often for content generation or design.
+3. Crowd Voting -  Collecting public opinion or feedback to make decisions or rank options.
+4. Crowd Wisdom - Using collective intelligence for decision-making or problem-solving.
+- Data Crowdsourcing: Data crowdsourcing is a method of collecting data from a large group of people, typically through online platforms.
+  - Data creates Quick data collection, Diverse input, Cost-effective, and Scalability.
+- Open Source Development: Open source development is a way of building software where the code is shared openly with the public. 
+  - This means anyone can view, use, improve, and share the code.
+  - It can be hard to manage lots of different contributors.
+  - Project leaders can get overwhelmed and it can also be unreliable (maintainer burnout).
+  - It’s important to follow legal rules about using and sharing code (licenses).
+- What is data crowdsourcing, and how does it contribute to open-source development?
+  - Data crowdsourcing is the process of collecting and compiling large amounts of data from a distributed group of individuals, often through online platforms.
+  - An example is wikipedia which is an online information platform for knowledge. 
+- Distributed Computing:
+  - Distributed computing involves a system of multiple computers working together over a network to solve a problem or complete a task. These systems share resources, such as processing power, storage, and data, to achieve a common goal.
+- Popcorn Hack: How does distributed computing contribute to innovations through crowdsourcing?
+  - Distributed computing refers to a system where computing tasks are spread across multiple networked devices, allowing large-scale processing of complex problems. When combined with crowdsourcing, it enables significant innovations by leveraging the collective power of volunteers’ devices to solve scientific, medical, and technological challenges.
+
 <br>
 Benificial and Harmful effects HW:
 <br>
@@ -32,30 +58,6 @@ HW:
 Explain the difference between implicit and explicit data. Provide an example of each:
 <br>
 Explicit data is where a user or system directly provides data. Implicit data is when data is not directly provided but is inferred from other information. An example of explicit data is a user inputting their name, gender, and age when signing up for Netflix. Implicit data is a suggestion Netflix gives a user based on their previous watches. 
-
-<Br>
-Crowdsourcing:
-- Crowdsourcing is a method of collecting help, ideas, or input from a large and varied group of people, typically through online platforms. 
-- The broader the crowdsourcing effort, the more you go beyond your immediate circle, the better chance you have to reduce Computer Bias.
-- Popcorn Hack #1: What are the different types of crowdsourcing, and how do they contribute to innovation? Provide a brief description of each type:
-1. Crowdfunding - Raising money by collecting small contributions from a large group of people.
-2. Crowd Creation -  Gathering creative input from a crowd, often for content generation or design.
-3. Crowd Voting -  Collecting public opinion or feedback to make decisions or rank options.
-4. Crowd Wisdom - Using collective intelligence for decision-making or problem-solving.
-- Data Crowdsourcing: Data crowdsourcing is a method of collecting data from a large group of people, typically through online platforms.
-  - Data creates Quick data collection, Diverse input, Cost-effective, and Scalability.
-- Open Source Development: Open source development is a way of building software where the code is shared openly with the public. 
-  - This means anyone can view, use, improve, and share the code.
-  - It can be hard to manage lots of different contributors.
-  - Project leaders can get overwhelmed and it can also be unreliable (maintainer burnout).
-  - It’s important to follow legal rules about using and sharing code (licenses).
-- What is data crowdsourcing, and how does it contribute to open-source development?
-  - Data crowdsourcing is the process of collecting and compiling large amounts of data from a distributed group of individuals, often through online platforms.
-  - An example is wikipedia which is an online information platform for knowledge. 
-- Distributed Computing:
-  - Distributed computing involves a system of multiple computers working together over a network to solve a problem or complete a task. These systems share resources, such as processing power, storage, and data, to achieve a common goal.
-- Popcorn Hack: How does distributed computing contribute to innovations through crowdsourcing?
-  - Distributed computing refers to a system where computing tasks are spread across multiple networked devices, allowing large-scale processing of complex problems. When combined with crowdsourcing, it enables significant innovations by leveraging the collective power of volunteers’ devices to solve scientific, medical, and technological challenges.
 
 
 
