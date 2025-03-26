@@ -9,6 +9,105 @@ image: /images/mario_animation.png
 
 **Trimester 3**
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organized Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .section {
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .section-title {
+            background: #f4f4f4;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .section-content {
+            display: none;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Trimester 3</h2>
+    <div class="section">
+        <div class="section-title">Crowdsourcing</div>
+        <div class="section-content">
+            <p>Crowdsourcing is a method of collecting help, ideas, or input from a large and varied group of people, typically through online platforms.
+            The broader the crowdsourcing effort, the more you go beyond your immediate circle, the better chance you have to reduce Computer Bias.</p>
+            <ul>
+                <li>Popcorn Hack #1: What are the different types of crowdsourcing, and how do they contribute to innovation? Provide a brief description of each type:
+                    <ul>
+                        <li><strong>Crowdfunding</strong> - Raising money by collecting small contributions from a large group of people.</li>
+                        <li><strong>Crowd Creation</strong> - Gathering creative input from a crowd, often for content generation or design.</li>
+                        <li><strong>Crowd Voting</strong> - Collecting public opinion or feedback to make decisions or rank options.</li>
+                        <li><strong>Crowd Wisdom</strong> - Using collective intelligence for decision-making or problem-solving.</li>
+                    </ul>
+                </li>
+                <li>Data Crowdsourcing & Open Source Development</li>
+                <li>Distributed Computing
+                Data Crowdsourcing: Data crowdsourcing is a method of collecting data from a large group of people, typically through online platforms.
+  - Data creates Quick data collection, Diverse input, Cost-effective, and Scalability.
+- Open Source Development: Open source development is a way of building software where the code is shared openly with the public. 
+  - This means anyone can view, use, improve, and share the code.
+  - It can be hard to manage lots of different contributors.
+  - Project leaders can get overwhelmed and it can also be unreliable (maintainer burnout).
+  - It’s important to follow legal rules about using and sharing code (licenses).
+- What is data crowdsourcing, and how does it contribute to open-source development?
+  - Data crowdsourcing is the process of collecting and compiling large amounts of data from a distributed group of individuals, often through online platforms.
+  - An example is wikipedia which is an online information platform for knowledge. 
+- Distributed Computing:
+  - Distributed computing involves a system of multiple computers working together over a network to solve a problem or complete a task. These systems share resources, such as processing power, storage, and data, to achieve a common goal.
+- Popcorn Hack: How does distributed computing contribute to innovations through crowdsourcing?
+  - Distributed computing refers to a system where computing tasks are spread across multiple networked devices, allowing large-scale processing of complex problems. When combined with crowdsourcing, it enables significant innovations by leveraging the collective power of volunteers’ devices to solve scientific, medical, and technological challenges.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Beneficial and Harmful Effects</div>
+        <div class="section-content">
+            <p>AI increases efficiency and automation, leading to job specialization, quick diagnoses, and medical advancements. However, it also causes job displacement and environmental concerns.</p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Computing Bias</div>
+        <div class="section-content">
+            <p>Computing bias occurs when algorithms produce results that unfairly favor or disadvantage certain groups. It can arise from flawed or biased data.</p>
+            <ul>
+                <li>Explicit vs. Implicit Data</li>
+                <li>Algorithmic Bias</li>
+                <li>Data Bias</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Digital Divide</div>
+        <div class="section-content">
+            <p>The digital divide refers to the gap between those who have easy access to digital technology and those who do not, impacting education, employment, and innovation opportunities.</p>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.section-title').forEach(title => {
+            title.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
+
+
 <Br>
 
 Crowdsourcing:
