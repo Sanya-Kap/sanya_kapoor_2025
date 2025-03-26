@@ -107,6 +107,10 @@ Explicit data is where a user or system directly provides data. Implicit data is
         <div class="section-title">Digital Divide</div>
         <div class="section-content">
             <p>The digital divide refers to the gap between those who have easy access to digital technology and those who do not, impacting education, employment, and innovation opportunities.</p>
+            <p>• Popcorn Hack 1: Identify one area (e.g., education, employment, healthcare, or community participation) where you’ve seen the digital divide in action. How does it affect people in different socioeconomic backgrounds?
+            <br> One clear example of the digital divide is in education. Students from lower-income backgrounds often lack access to high-speed internet, personal computers, or even a quiet space to study. This makes it harder for them to complete online assignments, attend virtual classes, or access digital learning resources. In contrast, students from wealthier families usually have access to multiple devices, reliable internet, and additional learning tools like online tutoring or educational subscriptions. This gap creates unequal learning opportunities, making it more difficult for underprivileged students to keep up with their peers, ultimately affecting their academic performance and future career prospects.
+            <br>
+            Voice assistants like Siri or Alexa can unintentionally exclude people with strong accents or speech impairments. This happens because these systems are trained mostly on standard speech patterns, making them less accurate for diverse voices.</p>
         </div>
     </div>
     <script>
