@@ -156,14 +156,13 @@ I would use the GPL license because it protects my work while also being able to
 
 
 <Br>
-
-
-Safe Computing
-
+    <div class="section">
+        <div class="section-title">Safe Computing</div>
+        <div class="section-content">
+            <p>Safe Computing
 - REvolves around PII (Personally Identifiable Information)
   - Information that identifies a user on the internet
   - Social Security, email, full name, etc.
-
 - Cookies
   - A variety of different cookies that are used in different sites: 
     - Session Cookies: Temporary cookies that are deleted when the browser is closed.
@@ -172,34 +171,27 @@ Safe Computing
     - Third-Party Cookies: Placed by external domains (e.g., advertisers) to track user behavior across sites.
   - These cookies track your PII, track your history on the site, and provide recommendations based on that history
   - Can breach security of users
-
 - Password Security
   - Minimum 10 characters
   - Use of both uppercase and lowercase lettering
   - Contains at least one number
   - Contains at least one special character
-
 - Encryption
   - Encryption is the process of converting data into a coded format to prevent unauthorized access. It ensures only authorized user can read the information.
-
   - Symmetric Encryption (Private Key Encryption)
   - The same key is used for both encryption and decryption
   - Faster but requires securely sharing the key between parties
-
   - Asymmetric Encryption (Public Key Encryption)
   - Public Key (for encryption)
   - Private key (for decryption)
   - More secure for internet communications since users don’t need to share a single key
-
   - Hashing (One-way encryption)
   - Converts data into a fixed length string that cannot be reversed
   - Used for storing passwordss securely.
   - Example: SHA-256 (Secure Hash Algorithm) used in blockchain and password security.
-
   - Where Encryption is Used:
   - Web Security: HTTPS (SSL/TLS encryption) protects websitess from eavesdropping
   - Messaging Apps: End-to-end encryption ensures that messages are private 
-
   - Phishing 
   - Phishing is a cyber-attack where scammers trick you into giving personal information (such as bank details or passwords) by pretending to be a legal entity, usually through fake emails, messages, or websites.
   - Ex. Email Phishing 
@@ -208,14 +200,17 @@ Safe Computing
   - Attackers can also create fake versions of popular websites to steal login credentials. Some popularly “spoofed” websites include Google, Amazon and various banking sites
   - Smishing
   - Hackers also send fake text images pretending to be from banks, delivery services, or government agencies, urging you to click a malicious link.
-
   - Verification
 - Verification is a crucial aspect of safe computing, ensuring that users, systems, and software are legitimate and secure.
 - Multi-Factor Authentification (MFA)
 - Added security process that requires users to verify their identity using multiple independent authentication factors.
   - Digital Structures
   - CAPTCHA 
-  - A common popup that ensure the user is not a bot
+  - A common popup that ensure the user is not a bot</li>
+            </ul>
+        </div>
+    </div>
+
 
 
 
