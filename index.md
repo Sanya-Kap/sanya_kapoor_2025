@@ -159,7 +159,7 @@ I would use the GPL license because it protects my work while also being able to
     <div class="section">
         <div class="section-title">Safe Computing</div>
         <div class="section-content">
-            <p>Safe Computing
+            <p>Safe Computing</p>
 - REvolves around PII (Personally Identifiable Information)
   - Information that identifies a user on the internet
   - Social Security, email, full name, etc.
@@ -207,6 +207,30 @@ I would use the GPL license because it protects my work while also being able to
   - Digital Structures
   - CAPTCHA 
   - A common popup that ensure the user is not a bot</li>
+HOMEWORK:
+def caesar_cipher(text, shift, mode):
+    result = ""
+    for char in text:
+        if char.isalpha():  # This part of the code only encrypts letters
+            shift_amount = shift if mode == "encrypt" else -shift
+            new_char = chr(((ord(char.lower()) - 97 + shift_amount) % 26) + 97)
+            result += new_char.upper() if char.isupper() else new_char
+        else:
+            result += char  # this keeps the spaces and position unchanged
+    return result
+
+mode = input("Do you want to encrypt or decrypt? ").strip().lower()
+message = input("Enter your message: ")
+shift_input = input("Enter shift value (number of places to shift or 'random'): ").strip().lower()
+
+if shift_input == "random":
+    shift = random.randint(1, 25)
+    print(f"Random value : {shift}")
+else:
+    shift = int(shift_input)
+    
+output = caesar_cipher(message, shift, mode)
+print(f"Result: {output}")
             </ul>
         </div>
     </div>
