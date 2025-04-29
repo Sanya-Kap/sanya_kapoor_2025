@@ -240,10 +240,313 @@ print(f"Result: {output}")
             </ul>
         </div>
     </div>
+    <div class="section">
+        <div class="section-title">Binary Search Algorithms</div>
+        <div class="section-content">
+            <p>Notes:
+Binary Search Algorithm 
+- Binary is a Base-2 number system made up of 0 and 1
+- use binary to represent text, images, video, music, and logic. 
+- one bit= 1 digit (0 or 1)
+- one byte = 8 bits -> represent 256 values
+- Images store pixel data using binary (e.g., RGB color codes)
+- Text uses ASCII or Unicode, which map characters to binary values (e.g., "A" = 01000001)
+- Music and videos are stored and transmitted as binary streams
+Binary Search vs Linear Search
+- Binary Search is a powerful algorithm used to quickly find an element in a sorted list by repeatedly dividing the search interval in half.
+Check the middle element
+If it’s the target, return it
+If not, search the left or right half
+Repeat until found or empty
+Binary Search vs Linear Search
+- Binary Search is a powerful algorithm used to quickly find an element in a sorted list by repeatedly dividing the search interval in half.
+Check the middle element
+If it’s the target, return it
+If not, search the left or right half
+Repeat until found or empty
+
+Binary search is efficient because it divides the search space in half with every step. Here’s how its time complexity breaks down:
+
+🧠 At each step, we eliminate half of the remaining elements.
+🧮 This “halving” continues until there’s only one element left.
+✨ This gives us a logarithmic number of steps — specifically:
+Time Complexity: O(log₂ n)
+Where n is the number of elements in the list.
+<br/>
+Popcorn Hack: 
+Binary Digit	2⁷	2⁶	2⁵	2⁴	2³	2²	2¹	2⁰
+Example: 1101	1	  1	 0	   1	 1  0   0   1
+
+Popcorn Hack #2: Binary Blitz!
+Convert the following decimals into binary: 10, 15, 17
+10 = 1010
+15 = 1111
+17 = 10001
+
+
+🍿 Popcorn Hack #3: Half & Half!
+Given the sequence of numbers, how would you search for the number 18? `[3, 6, 9, 12, 15, 18, 21, 24]`
+- I would split it into half, and then search the right side. 
+</p>
+            <ul>
+                <li>HW: Homework Hack: 
+Part A - 42/2 = 21 remainder 0. 21/2= 10 remainder 1. 10/2= 5 remainder 0. 5/2=2 remainder 1. 2/2=1 remainder 0. 1/2=0 remainder 1 = 101010
+
+19/2 = 9 remainder 1. 9/2= 4 remainder 1. 4/2=2 remainder 0. 2/2=1 remainder 0. 1/2=0 remainder 1 = 10011
+
+100/2=50 remainder 0. 50/2=25 remainder 0. 25/2=12 remainder 1. 12/2=6 remainder 0. 6/2=3 remainder 0. 3/2= 1 remainder 1. 1/2=0 remainder 1 = 1100100
+
+Part B: 
+1. 101010 = 2^5 = 32 + 2^3 = 8 + 2^1-2 = 42
+2. 10011 = 2^4=16 + 2^1=2 + 2^0=1 = 19
+3. 110011 = 2^5=32 + 2^4=16 + 2^1=2 + 2^0=1 = 51
+
+Part C: 
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33]
+
+1. Split in half. Then it would be easier to organize. 
+Initial list:
+Low = 0, High = 10
+Mid = (0+10)//2 = 5 → list[5] = 18
+1 comparison made
+target found
+
+Low = 0, High = 10
+Mid = (0+10)//2 = 5 → list[5] = 18 → 33 > 18 → search right half
+Low = 6, High = 10 → Mid = (6+10)//2 = 8 → list[8] = 27 → 33 > 27
+Low = 9, High = 10 → Mid = (9+10)//2 = 9 → list[9] = 30 → 33 > 30
+Low = 10, High = 10 → Mid = (10+10)//2 = 10 → list[10] = 33 
+4 comparisons made
+target found
+
+Low = 0, High = 10
+Mid = 5 → list[5] = 18 → 5 < 18 → search left half
+Low = 0, High = 4 → Mid = 2 → list[2] = 9 → 5 < 9
+Low = 0, High = 1 → Mid = 0 → list[0] = 3 → 5 > 3
+Low = 1, High = 1 → Mid = 1 → list[1] = 6 → 5 < 6
+4 comparisons made
+Not found
+
+Part D: 
+"mango"
+Initial: low = 0, high = 10
+mid = 5, list[5] = "grape" → "mango" > "grape"
+low = 6, high = 10 → mid = 8, list[8] = "orange" → "mango" < "orange"
+low = 6, high = 7 → mid = 6, list[6] = "kiwi" → "mango" > "kiwi"
+low = 7, high = 7 → mid = 7, list[7] = "mango" → ✅ Found!
+4 Comparisons
+Found
+
+"carrot"
+Initial: low = 0, high = 10
+mid = 5, list[5] = "grape" → "carrot" < "grape"
+low = 0, high = 4 → mid = 2, list[2] = "carrot"
+2 comparisons
+found
+
+"lemon" (not in list)
+Initial: low = 0, high = 10
+mid = 5, list[5] = "grape" → "lemon" > "grape"
+low = 6, high = 10 → mid = 8, list[8] = "orange" → "lemon" < "orange"
+low = 6, high = 7 → mid = 6, list[6] = "kiwi" → "lemon" > "kiwi"
+low = 7, high = 7 → mid = 7, list[7] = "mango" → "lemon" < "mango"
+
+FRQS:
+Why is binary search more efficient for large data than linear search?
+- Binary search is more efficient because it repeatedly cuts the data in half, instead of having to search through every item. It is a lot easier to split the book in half and then go either left or right from that point than to read through every single word. 
+
+What happens if the list isn’t sorted and you try to use binary search?
+- If the list isn't stored then the binary search would not work and the algorithm would likely return the false target or fail to return.
+
+Could you use binary search in a video game leaderboard or streaming service search bar? Why or why not?
+- Yes, you could. Because the leaderboard scores are sorted, it is efficient to use binary search. Video games have both sorted and large amounts of data making it applicable. However, streaming services have data tat is unsorted and randomized which makes binary search inadequate. </li>
+            </ul>
+        </div>
+    </div>
+
+Binary Search Algorithm 
+- Binary is a Base-2 number system made up of 0 and 1
+- use binary to represent text, images, video, music, and logic. 
+- one bit= 1 digit (0 or 1)
+- one byte = 8 bits -> represent 256 values
+- Images store pixel data using binary (e.g., RGB color codes)
+- Text uses ASCII or Unicode, which map characters to binary values (e.g., "A" = 01000001)
+- Music and videos are stored and transmitted as binary streams
+
+
+- Converting Between Binary & Decimal
+- Divide the number by 2
+- Record the remainder
+- Repeat until the quotient is 0
+- Read the remainders bottom to top
+- the remainder (0 or 1) is the binary number 
+
+🍿 Popcorn Hack #2: Binary Blitz!
+Convert the following decimals into binary: 10, 15, 17
+10 = 1010
+15 = 1111
+17 = 10001
+
+Binary Search vs Linear Search
+- Binary Search is a powerful algorithm used to quickly find an element in a sorted list by repeatedly dividing the search interval in half.
+Check the middle element
+If it’s the target, return it
+If not, search the left or right half
+Repeat until found or empty
+
+🚫 List must be sorted
+😵 Not useful for very small datasets
+🧩 A bit more complex to code
+
+
+🍿 Popcorn Hack #3: Half & Half!
+Given the sequence of numbers, how would you search for the number 18? `[3, 6, 9, 12, 15, 18, 21, 24]`
+- I would split it into half, and then search the right side. 
+
+Binary search is efficient because it divides the search space in half with every step. Here’s how its time complexity breaks down:
+
+🧠 At each step, we eliminate half of the remaining elements.
+🧮 This “halving” continues until there’s only one element left.
+✨ This gives us a logarithmic number of steps — specifically:
+Time Complexity: O(log₂ n)
+Where n is the number of elements in the list.
+
+Homework Hack: 
+Part A - 42/2 = 21 remainder 0. 21/2= 10 remainder 1. 10/2= 5 remainder 0. 5/2=2 remainder 1. 2/2=1 remainder 0. 1/2=0 remainder 1 = 101010
+
+19/2 = 9 remainder 1. 9/2= 4 remainder 1. 4/2=2 remainder 0. 2/2=1 remainder 0. 1/2=0 remainder 1 = 10011
+
+100/2=50 remainder 0. 50/2=25 remainder 0. 25/2=12 remainder 1. 12/2=6 remainder 0. 6/2=3 remainder 0. 3/2= 1 remainder 1. 1/2=0 remainder 1 = 1100100
+
+Part B: 
+1. 101010 = 2^5 = 32 + 2^3 = 8 + 2^1-2 = 42
+2. 10011 = 2^4=16 + 2^1=2 + 2^0=1 = 19
+3. 110011 = 2^5=32 + 2^4=16 + 2^1=2 + 2^0=1 = 51
+
+Part C: 
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33]
+
+1. Split in half. Then it would be easier to organize. 
+Initial list:
+Low = 0, High = 10
+Mid = (0+10)//2 = 5 → list[5] = 18
+1 comparison made
+target found
+
+Low = 0, High = 10
+Mid = (0+10)//2 = 5 → list[5] = 18 → 33 > 18 → search right half
+Low = 6, High = 10 → Mid = (6+10)//2 = 8 → list[8] = 27 → 33 > 27
+Low = 9, High = 10 → Mid = (9+10)//2 = 9 → list[9] = 30 → 33 > 30
+Low = 10, High = 10 → Mid = (10+10)//2 = 10 → list[10] = 33 
+4 comparisons made
+target found
+
+Low = 0, High = 10
+Mid = 5 → list[5] = 18 → 5 < 18 → search left half
+Low = 0, High = 4 → Mid = 2 → list[2] = 9 → 5 < 9
+Low = 0, High = 1 → Mid = 0 → list[0] = 3 → 5 > 3
+Low = 1, High = 1 → Mid = 1 → list[1] = 6 → 5 < 6
+4 comparisons made
+Not found
+
+Part D: 
+"mango"
+Initial: low = 0, high = 10
+mid = 5, list[5] = "grape" → "mango" > "grape"
+low = 6, high = 10 → mid = 8, list[8] = "orange" → "mango" < "orange"
+low = 6, high = 7 → mid = 6, list[6] = "kiwi" → "mango" > "kiwi"
+low = 7, high = 7 → mid = 7, list[7] = "mango" → ✅ Found!
+4 Comparisons
+Found
+
+"carrot"
+Initial: low = 0, high = 10
+mid = 5, list[5] = "grape" → "carrot" < "grape"
+low = 0, high = 4 → mid = 2, list[2] = "carrot"
+2 comparisons
+found
+
+"lemon" (not in list)
+Initial: low = 0, high = 10
+mid = 5, list[5] = "grape" → "lemon" > "grape"
+low = 6, high = 10 → mid = 8, list[8] = "orange" → "lemon" < "orange"
+low = 6, high = 7 → mid = 6, list[6] = "kiwi" → "lemon" > "kiwi"
+low = 7, high = 7 → mid = 7, list[7] = "mango" → "lemon" < "mango"
+
+FRQS:
+Why is binary search more efficient for large data than linear search?
+- Binary search is more efficient because it repeatedly cuts the data in half, instead of having to search through every item. It is a lot easier to split the book in half and then go either left or right from that point than to read through every single word. 
+
+What happens if the list isn’t sorted and you try to use binary search?
+- If the list isn't stored then the binary search would not work and the algorithm would likely return the false target or fail to return.
+
+Could you use binary search in a video game leaderboard or streaming service search bar? Why or why not?
+- Yes, you could. Because the leaderboard scores are sorted, it is efficient to use binary search. Video games have both sorted and large amounts of data making it applicable. However, streaming services have data tat is unsorted and randomized which makes binary search inadequate. 
+
+
+Lists and Algorithns:
+ A list is an ordered sequence of elements. The use of lists allows multiple related items to be represented using a single variable.
+
+Popcorn Hack #1:
+What are some possible benefits of using lists?
+Multiple items can be represented under a single variable. 
+✅ Store lots of data in one place - ✅ Access each item individually - ✅ Filter, sort, and organize that data
+Example is a spotify playlist
+
+So create a list you can: List1 = ["Ford", "Ferrari", 1922]
+
+To access it:
+cars = ["Jaguar", "Ford", "Kia"]
+print(cars[0])  # Output: apple
+print(cars[1])  # Output: banana
+
+Modifying lists:
+cars[1] = "Rivian"  
+print(cars)  
+
+Adding Elements to a List
+You can add elements to a list in two main ways:
+append(): Adds an item to the end of the list.
+insert(index, item): Adds an item at a specific position in the list.
+
+Removing Elements from a list
+animals = ["cat", "dog", "fish"]
+animals.pop(1)  # removes "dog"
+print(animals)
+
+['cat', 'fish']
+
+Slicing up a list
+numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+first_five = numbers[0:5]
+print(first_five)
+
+Popcorn Hack#2
+What does this code output?
+
+items = ["pen", "pencil", "marker", "eraser"]
+items.remove("pencil")
+items.append("sharpener")
+print(items[2])
+
+Its output is marker (0,1,2)
 
 
 
+Traversing a list means going through each item one by one using a loop. Traversing lists are a key factor in creating filtering algorithms.
 
+colors = ["red", "blue", "green", "yellow"]
+
+for color in colors:
+    print("Color:", color)
+
+
+Filtering Algorithim
+College Board states that an algorithim is “a finite set of instructions that accomplish a specific task.” They also say that “Filtering algorithims are important tools for finding information and recognizing patterns in data.”
+
+
+Popcorn Hack 3: What are some real world examples of filtering algorithms?
+In the inbox, unread emails are bolded
 
 
 <div class="Games.md">
